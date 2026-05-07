@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Agathoic Blade" type="Spell" source="Entemar Homebrew" id="ID_HIN_SPELL_Agathoic_Blade">
+		<supports>Sorcerer, Wizard</supports>
+		<description>
+			<p>You cover the weapon used in the spell's casting with a vile yet warm energy and make a melee with it against one creature withing 5 feet of you.  On a hit, the target suffers the weapon attack's normal effects, then choose:</p>
+            <p class="indent"><strong><em>Agatho</em></strong> A twisted presence circles around the creature in form of a small cherub and demon. Until the start of your next turn, if the creature willingly moves, the Cherub deals 2d4 radiant damage. If the creature attacks or uses a spell that causes damage, the demon makes the attack or spell cause 2d4 less damage and hurls the absorbed damage against another creature that is allied to the innitial target within 15 feet. The arbsorbed damage becomes necrotic.</p>
+            <p class="indent"><strong><em>Agios</em></strong> A holy energy surrounds the creature. Until the start of your next turn, if the creature attacks or uses a spell that deals damage, the energy bursts inwards dealing 1d8 radiant damage.</p>
+            <p class="indent"><strong><em>Kakos</em></strong> A vile mass of energy circles around the creature, flying towards another creature within a 5-foot radius around the creature. The mass deals 1d8 Necrotic damage to the new target.</p>
+            <p class="indent">This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d4 necrotic damage and 1d4 radiant damage to the target on a hit, and the damage the target takes for causing the spell's respective effects increases by 1 extra die. Both damage rolls increase by 1 die at 11th level (2d4 and 2 extra die) and again at 17th level (3d4 and 3 extra die).</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Agathomancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">A melee weapon worth at least 1 sp</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
