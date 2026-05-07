@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+        <update version="0.1.0">
+            <file name="Varos-book-of-spells.xml" url="https://github.com/HeyItNothing/Entemar-Campaign-Main/blob/main/Entemar-Campaign/Varos-book-of-spells.xml" />
+        </update>
+    </info>
 	<element name="Coldlight Ray" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_COLDLIGHT_RAY">
 		<supports>Wizard</supports>
 		<description>
