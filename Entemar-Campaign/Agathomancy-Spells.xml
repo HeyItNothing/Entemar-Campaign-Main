@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <element name="Agathoic Blade" type="Spell" source="Entemar Homebrew" id="ID_HIN_SPELL_Agathoic_Blade">
+	    <info>
+        <update version="0.1.0">
+            <file name="Agathomancy-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Agathomancy-Spells.xml" />
+        </update>
+    </info>
+    <element name="Agathoic Blade" type="Spell" source="Entemar Homebrew" id="ID_HIN_SPELL_AGATHOIC_BLADE">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>You cover the weapon used in the spell's casting with a vile yet warm energy and make a melee with it against one creature withing 5 feet of you.  On a hit, the target suffers the weapon attack's normal effects, then choose:</p>
