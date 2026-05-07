@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
+		<name></name>
         <update version="0.1.1">
             <file name="Entemar-Wonderous-Items.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemar-Wonderous-Items.xml" />
         </update>
