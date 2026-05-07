@@ -2,15 +2,15 @@
 <index>
     <info>
         <update version="0.1.0">
-            <file name="Entemar-Campaign.index" url="" />
+            <file name="Entemar-Campaign.index" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemar-Campaign.index" />
         </update>
     </info>
     <files>
-        <file name="Agathomancy-Spells.xml url="" />
-        <file name="Dragon-Spells.xml" url="" />
-        <file name="Entemar-Wonderous-Items.xml" url="" />
-        <file name="Entemars-Custom-Weapons.xml" url="" />
-        <file name="Entemars-Glossar-of-Weapons.xml" url="" />
-        <file name="Varos-book-of-spells.xml" url="" />
+        <file name="Agathomancy-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Agathomancy-Spells.xml" />
+        <file name="Dragon-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Dragon-Spells.xml" />
+        <file name="Entemar-Wonderous-Items.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemar-Wonderous-Items.xml" />
+        <file name="Entemars-Custom-Weapons.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemars-Custom-Weapons.xml" />
+        <file name="Entemars-Glossar-of-Weapons.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemars-Glossar-of-Weapons.xml" />
+        <file name="Varos-book-of-spells.xml" url="https://github.com/HeyItNothing/Entemar-Campaign-Main/blob/main/Entemar-Campaign/Varos-book-of-spells.xml" />
     </files>
 </index>
