@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+    <info>
+        <update version="0.1.0">
+            <file name="Entemar-Campaign.index" url="" />
+        </update>
+    </info>
+    <files>
+        <file name="Agathomancy-Spells.xml url="" />
+        <file name="Dragon-Spells.xml" url="" />
+        <file name="Entemar-Wonderous-Items.xml" url="" />
+        <file name="Entemars-Custom-Weapons.xml" url="" />
+        <file name="Entemars-Glossar-of-Weapons.xml" url="" />
+        <file name="Varos-book-of-spells.xml" url="" />
+    </files>
+</index>
