@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+        <update version="0.1.0">
+            <file name="Dragon-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Dragon-Spells.xml" />
+        </update>
+    </info>
 	<element name="White Dragon's Bite" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_WHITE_DRAGONS_BITE">
 		<supports>Wizard</supports>
 		<description>
