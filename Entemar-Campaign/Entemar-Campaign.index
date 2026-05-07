@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+    <info>
+        <update version="0.1.0">
+            <file name="Entemar-Campaign.index" url="https://github.com/ShadowLinks/assorted-elements/raw/refs/heads/main/Wyrmslayer/wyrmslayer.index" />
+        </update>
+    </info>
+    <files>
+        <file name="Agathomancy-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Agathomancy%20Spells.xml" />
+        <file name="Dragon-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Dragon%20Spells.xml" />
+        <file name="Wonderous-Items.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemar%20Wonderous%20Items.xml" />
+        <file name="Campaign-Weapons.xml" url="https://github.com/ShadowLinks/assorted-elements/raw/refs/heads/main/Wyrmslayer/wyrmslayer-skysplitter.xml" />
+        <file name="General-Weapons.xml" url="https://github.com/ShadowLinks/assorted-elements/raw/refs/heads/main/Wyrmslayer/wyrmslayer-tollsentinel.xml" />
+        <file name="Varos-book-of-spells.xml" url="https://github.com/ShadowLinks/assorted-elements/raw/refs/heads/main/Wyrmslayer/lineages.xml" />
+    </files>
+</index>
