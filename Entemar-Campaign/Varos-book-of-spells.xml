@@ -2,7 +2,7 @@
 <elements>
 	<info>
         <update version="0.1.1">
-            <file name="Varos-book-of-spells.xml" url="https://github.com/HeyItNothing/Entemar-Campaign-Main/blob/main/Entemar-Campaign/Varos-book-of-spells.xml" />
+            <file name="Varos-book-of-spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Varos-book-of-spells.xml" />
         </update>
     </info>
 	<element name="Coldlight Ray" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_COLDLIGHT_RAY">
