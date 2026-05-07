@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Weapon Proficiency (Scythe)" type="Proficiency" source="Entemar Homebrew" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+    </element>
+<element name="Scythe" type="Weapon" source="Entemar Homebrew" id="ID_HeyItsNothing_EH_WEAPON_Scythe">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="3">4 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">2d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
+		</setters>
+	</element>
+</elements>

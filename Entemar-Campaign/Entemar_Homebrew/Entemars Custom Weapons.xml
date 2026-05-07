@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Sun and Moon" type="Magic Item" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_MAGIC_ITEM_SUN_AND_MOON">
+		<description>
+			<p>Sun and Moon's origin is unknown, yet their synergy is unquestionable. Now together, Sun and Moon unfold their combined power to strike true.</p>
+            <p class="indent">Sun and Moon are Magic Shortswords that are considered to be +2 weapons, yet if you wield them alone they are only +1 instead.</p>
+            <p class="indent">Sun and Moon's additional damage increases depending on the time of day. If it's Daytime, Sun will deal 1d8 Fire or Radiant damage while Moon deals 1d4 Cold or Necrotic Damage. If it's Nightime, Sun deals 1d4 Fire or Radiant damage while Moon deals 1d8 Cold or Necrotic damage.</p>
+            <p class="indent">During Special occasions, Sun and Moon can become even more Powerful. At 12pm, Sun' additional damage rises to 1d12 Fire or Radiant for one hour (This effect can only occur on the next day if Sun hasn't been used for at least 8 hours since the last time this effect triggered). If it's a full Moon, Moon's additional damage become 2d8 Cold or Necrotic.</p>
+            <p class="indent">There are also times where Sun and Moon loose their elemental prowess, making them far weaker than what they actually are. During a Solar Eclipse Sun is considered a simple +2 Shortsword while Moon is considered a simple +2 Shortsword on a New Moon.</p>
+            <p class="indent">Sun and Moon count as one in every way, making you use only one attunement slot instead of two when attuned to both Sun and Moon.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+            <set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<element name="Moon" type="Magic Item" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_MAGIC_ITEM_MOON_TOGETHER" >
+		<description>
+			<p>This magic Shortswords blade is shaped like the moon in its half empty state, emitting a slight cold whenever you wield it. Its hilt coasts a symbol resembling a moon, its origins unknown, yet wielding it along Sun feels right.</p>
+			<p class="indent">This magic Shortsword counts as a +2 weapon, doing 1d6 slashing damage and an additional 1d4 cold or necrotic damage, which you choose before dealing the weapons damage.</p>
+			<p class="indent">Finally combined with Sun, this weapons extra damage increases depending on the time of day. During the day, this weapon does 1d4 Cold/Necrotic damge, at night this damage increases to 1d8 Cold/Necrotic damage. During a Full Moon, this damage become 2d8 Cold/Necrotic instead and during a New Moon, this weapon functions as a simple +2 Shortsword instead.</p>
+		</description>	
+		<setters>
+			<set name="keywords">shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<element name="Moon (Alone)" type="Magic Item" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_MAGIC_ITEM_MOON_ALONE" >
+		<description>
+			<p>This magic Shortswords blade is shaped like the moon in its half empty state, emitting a slight cold whenever you wield it. Its hilt coasts a symbol resembling a moon, its origins unknown, yet it feels like something is missing...</p>
+			<p class="indent">This magic Shortsword counts as a +1 weapon, doing 1d6 slashing damage and an additional 1d4 cold or necrotic damage, which you choose before dealing the weapons damage.</p>
+			<p class="indent">You feel like wielding this weapon with another might strengthen it...</p>
+		</description>	
+		<setters>
+			<set name="keywords">shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<element name="Sun" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_SUN_TOGETHER" >
+		<description>
+			<p>This magic short flamberge blade emmits a slight warmth from itself, the hilt coasting a symbol similar to the sun. It's origins are unknown, but wielding it along Moon feels right.</p>
+			<p class="indent">This magic Shortsword counts as a +2 weapon, doing 1d6 piercing damage and an additional 1d4 fire or radiant damage, which you choose before dealing the weapons damage.</p>
+			<p class="indent">Finally combined with Moon, this weapons extra damage increases depending on the time of day. At Night, this weapon does 1d4 Fire/Radiant damge, during the day this damage increases to 1d8 Fire/Radiant damage. At exactly 12pm this weapon does 1d12 Fire/Radiant damage for 1 hour instead.(You can only use this effect on the next day if this Shortsword has been idle for atleast 8 hours since the effect occured last). During a Solar Eclipe, this weapon functions as a simple +2 Shortsword instead.</p>
+		</description>	
+		<setters>
+			<set name="keywords">shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">2</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<element name="Sun (alone)" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_SUN_ALONE" >
+		<description>
+			<p>This magic short flamberge blade emmits a slight warmth from itself, the hilt coasting a symbol similar to the sun. It's origins are unknown, yet it feels like something is missing...</p>
+			<p class="indent">This magic Shortsword counts as a +1 weapon, doing 1d6 piercing damage and an additional 1d4 fire or radiant damage, which you choose before dealing the weapons damage.</p>
+			<p class="indent">You feel like wielding this weapon with another might strengthen it...</p>
+		</description>	
+		<setters>
+			<set name="keywords">shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="enhancement">1</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<element name="Afterthought" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_AFTERTHOUGHT">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, you may use half your Intelligence Modifier (rounded down) in addition to your attack and damage roll modifier.</p>
+            <p>This sword always drags behind 3 mirages of its blade when unsheathed. When you hit a creature with an attack of this sword, you roll 3d10, and for every roll above a 6, you deal addiotional Force damage equal to your Intelligence Modifier.</p>
+		</description>
+		<setters>
+			<set name="keywords">scimitar</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Scimitar</set>
+		</setters>
+	</element>
+
+	<element name="Hogim, the Sapphire Storm" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_AAABBB">
+		<description>
+			<p class="indent"><strong>Sentient Weapon</strong> This Longsword contains the concious soul of Hogim, an ancient Sapphire dragon. It can communicate telepathically with its owner in any language.</p>
+			<p class="indent"><strong>Hogim's might</strong> The might of this ancient dragon is so great, it allows you to be attuned to the Sword withoud needing an attunement slot. His might also allows him to take control of your body if he deems it needed.</p>
+			<p class="indent"><strong>Hogim's toll</strong> Holding such might gives many benefits, but also tolls your body. If you used Hogim the Sapphire Sword in combat since your last Long rest, you are required to take an extra hour of sleep on your next Long rest.</p>
+			<p>Being attuned to this weapon gives you the following benefits:</p>
+			<ul>
+				<li>You gain a +4 Bonus to your attack and damage bonus when attacking with this weapon</li>
+				<li>You can understand, read and write draconic</li>
+				<li>You can cast "telepathy" once per day without using a spell slot</li>
+				<li>Your intelligence score becomes 24, this feature does not work if your intelligence score already is 24 or greater.</li>
+				<li>You gain darkvision to up to 120 ft. and blindsight to up to 60 ft.</li>
+				<li>You gain a +1 bonus to your AC</li>
+				<li>You have resistance to thinder and psychic damage</li>
+				<li>You gain a +2 bonus to your Spell attack bonus and your Spell Save DC</li>
+				<li>On a hit, the weapon does an additional 2d8 Thunder damage when held in one hand, or 3d10 Thunder damage when held in both hands.</li>
+				<li>When casting a spell that deals damage, the spell does an additional 2d6 Thunder damage and an additional 1d6 Thunder damage for every level of a spell slot spent to cast that spell.</li>
+			</ul>
+			<p class="indent"><strong>Draconic Hybrid.</strong>You gain the Draconic Hybrid Feat</p>
+		</description>
+		<setters>
+			<set name="keywords">Longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="Longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">4</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+			<stat name="swordmage:spellcasting:attack" value="2" />
+			<stat name="swordmage:spellcasting:dc" value="2" />
+			<stat name="intelligence:score:set" value="24" bonus="base" />
+			<stat name="darkvision:range" value="120" bonus="base" />
+			<stat name="blindsight:range" value="60" bonus="base" />
+			<grant type="Spell" id="ID_PHB_SPELL_TELEPATHY" level="8" />
+			<grant type="Feat Feature" id="ID_HeyItsNothing_Entemar_Homebrew_FEAT_FEATURE_DRACONIC_HYBRID" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+		</rules>
+	</element>
+
+ 	<element name="Draconic Hybrid" type="Feat Feature" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_FEAT_FEATURE_DRACONIC_HYBRID">
+        <description>
+            <p>Using a bonus action, you can assume the form of a dragon hybrid. The form lasts for 10 Minutes or until you dispel it (no action required). In hybrid form, you gain following traits:</p>
+			<ul>
+				<li>You sprout sapphire wings, gaining a flying speed of 90 ft. You may also hover.</li>
+				<li>You sprout a prehensile sapphire tail. You can use your attack action to make an unarmed strike with it. On a hit the attack deals 3d10 Thunder damage and the target has the paralyzed condition for one round.</li>
+				<li>You sprout sapphire horns. You can converse telepathically with any number of creatures you choose within 120 ft.</li>
+				<li>Your Eyes begin glowing. You gain true sight to up to 120 ft.</li>
+				<li>You surround yourself with a thunderous aura. The aura has a radius of 10 ft. and any creature of your choice who enters this radius for the first time recieves 1d10 thunder damage and recieves 1d6 psychic damage for every round it starts inside the aura afterwards.</li>
+				<li>You gain one extra action that you can use to either attack or cast a spell. When attacking this way, multi attack does not apply. If you already cast a spell this turn you cannot cast a spell above the 3rd level with this action.</li>
+				<li>On a hit, the weapon now deals 4d8 Thunder damage when held in one hand and 6d10 Thunder damage when held in both hands.</li>
+				<li>Your additional spell damage increases to 4d6 Thunder damage and an additional 2d6 Thunder damage for every level of a spell slot spent.</li>
+				<li>You gain an additional +5 to your AC</li>
+				<li>You gain an addition +4 to your spell attack bonus and spell safe dc.</li>
+			</ul>
+			<p>When the form ends you are stunned for 1 round and gain 3 levels of exhaustion. Additionally, you cannot assume this form for 1d4 days for every round you spent in this form.</p>
+        </description>
+    </element>
+
+	<element name="Alastor" type="Magic Item" source="Curse of Strahd" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_Alastor">		
+		<description>
+			<p>Alastor is a longsword imbued with the power of electricity. You gain a +1 bonus to attack and damage rolls made with this weapon. On a hit, the target takes 2d6 additional lightning damage as the sword shocks them.</p>
+			<p class="indent">This sword holds up to 3 charges. As an action, may expend one or more charges to cast a lightning bolt spell with a spell save DC of 17. For each additional charge, increase the spell level by 1. The sword regains up to 1d4 - 1 charges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Longsword</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+
+	<element name="Black Prince" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_Black_Prince">
+		<description>
+			<p>A long, black blade, as serrated as it gets. From a glance, one may assume it was primitive, but at a closer look, especially in combat, the genius of its design becomes quickly apparent. Small, glimmers of silver run along the non-serrated side of the blade showing that the blade has been scorched black and that silver was its original colour. Under the guard rests a small button, which is where the magical capabilities become obvious.
+
+The Black Prince is freely capable of creating and igniting massive amounts of black powder with its serrated edge, which when in the hands of a master, turns this weapon from a master-crafted sword to something resembling a hand-held siege weapon.</p>
+			<p class="indent"><strong>Strange Form.</strong> Black Prince deals 1d8 slashing damage on a hit, and has the Finesse property.</p>
+			<p class="indent"><strong>Rune of Flames.</strong> Black Prince is engraved with old runes resembling flames, making it deal an extra 1d6 fire damage on hit.</p>
+			<p class="indent"><strong>Weapon enhancement.</strong> The sharpness of Black Prince enhances the weapon to be a +1 Weapon</p>
+			<p class="indent"><strong>Fire Reliance.</strong> Any feature below this fails to function in water, taking the action but doing nothing.</p>
+            <p class="indent"><strong>Spark-Out.</strong> As a bonus action, you can cause your next attack with this weapon on this turn to deal 1d6 extra fire damage.</p>
+            <p class="indent"><strong>Black Fury.</strong> If you hit something with a melee attack that isn't a creature while Spark-Out is active, you may then launch yourself. Everything within 5 feet of you takes 1d6 fire damage, and you may move in any direction up to your speed (minimum of half your speed), not provoking opportunity attacks. If you cannot move more than 5 feet using this, you take 1d6 fire damage as well.</p>
+            <p class="indent"><strong>Prince's Roar.</strong> As an action, you may release a massive, 20-foot radius cloud of black powder (centred on you). This area is considered lightly obscured. If an attack with black prince or something else that deals fire damage hits within the cloud, it explodes. Everything within 5 feet of the cloud takes 2d6 fire damage, 4d6 if they are within the cloud. The cloud disappears after this but will linger for 5 minutes prior to ignition. You may only do this once, regaining the use after an hour.</p>
+		</description>
+		<setters>
+			<set name="keywords">longsword,radiant</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+
+	<element name="Polished Ruby Blade" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_Polished_Ruby_Blade">
+		<description>
+			<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. It's desceptively light and nimble blade seems almost indestructable and its handle fits perfectly in your hands. </p>
+            <p>If you're not already able you can use this blade as a spellcasting focus and you can use your spellcasting ability as your damage and attack modifier</p>
+            <p>Whenever you deal damage with a Spell you can add half your Spellcasting Modifier, rounded down, to each damage die. The added damage resembles the damage type dealt for each die.</p>
+		</description>
+		<setters>
+			<set name="keywords">scimitar</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Scimitar</set>
+		</setters>
+	</element>
+
+	<element name="Ruby Blade Unpolished" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_Ruby_Blade_Unpolished">
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. It's desceptively light and nimble blade seems almost indestructable and its handle fits perfectly in your hands. </p>
+            <p>If you're not already able you can use this blade as a spellcasting focus and you can use your spellcasting ability as your damage and attack modifier</p>
+            <p>It seems like casting spells with this blade in hand makes it react in some way.</p>
+		</description>
+		<setters>
+			<set name="keywords">scimitar</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Scimitar</set>
+		</setters>
+	</element>
+
+<element name="Serpent's Fang" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_WEAPON_Serpents_Fang">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p>This single-edged magic sword is made from the scrimshawed fang of a giant serpent. Its hilt changes shape to adjust to the grasp of any creature that picks it up. The weapon deals an extra 1d10 poison damage to any target it hits.
+
+Versatile. This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
+		</setters>
+	</element>
+
+	<element name="Voltharion" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_Voltharion">		
+		<description>
+			<p>Voltharion is an elvish forged longsword imbued with the power of electricity. You gain a +3 bonus to attack and damage rolls made with this weapon. On a hit, the target takes 4d4 additional lightning damage as the sword shocks them.</p>
+			<p class="indent"><b><i>Lightning Bolt.</i></b> This sword holds up to 6 charges. As an action, may expend one or more charges to cast a lightning bolt spell with a spell save DC of 17. For each additional charge, increase the spell level by 1 to a maximum of level 5 (2 extra charges). Additionally, you may use the lightning bolt spell diagonally. The sword regains up to 1d4 + 1 charges at dawn.</p>
+            <p class="indent"><b><i>Lightning Defense.</i></b> Reaction: When you get hit, but before you take damage, you may use your reaction to use this ability. You gain +3 AC until the beginning of your next turn and if the attacking creature misses its attack because of this, it takes 4d4 lightning damage. Enemies in a 5ft. radius around the creature take 2d4 lightning damage. Lightning Defense has 3 charges and regains up to 1d4 - 1 charges at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Longsword</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">3</set>
+		</setters>
+	</element>
+
+	<element name="Sun of War" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_SUN_OF_WAR">		
+		<description>
+			<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, this weapon deals an extra 1d6 radiant damage, or 1d10 radiant damage if held with two hands alongside the normal 1d6 or 1d10 slashing damage.</p>
+			<p class="indent"><b><i>War Form:</i></b> While you hold this weapon in both hands you can use a bonus action to transform it into its war form. While in war form:</p>
+				<ul>
+					<li>The Weapon is considered a Greatsword instead of a Longsword. You deal 4d8 Radiant damage on a hit, the weapon has the Two-Handed property and the Graze mastery.</li>
+					<li>Once per long rest, if you fall to 0 hit points, you have 1 hit point instead and are still concious. Gain temporary hit points equal to the difference of your current and your maximum hit points. (No action required)</li>
+				</ul>
+            <p class="indent"><b><i>Grace of the Sun:</i></b> The Goddess of the Sun blesses you. While attuned to this weapon you gain the following spells:</p>
+				<ul>
+					<li>True Strike (recharge 3-6)</li>
+					<li>Word of Radiance (recharge 3-6)</li>
+					<li>Divine Smite (recharge 5-6)</li>
+					<li>Healing Word, lvl 3 (3/Long rest)</li>
+					<li>Spellfire Storm (1/Long rest)</li>
+				</ul>
+			<p>The spell attack modifier for these spell is +9 and the spell save DC is 19. Additionally, if you are a spellcaster, you may choose to use your own spell attack modifier and spell save DC instead.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Longsword</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<grant type="Feat Feature" id="ID_HeyItsNothing_Entemar_Homebrew_FEAT_FEATURE_GRACE_OF_THE_SUN" />
+		</rules>
+	</element>
+
+ 	<element name="Grace of the Sun" type="Feat Feature" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_FEAT_FEATURE_GRACE_OF_THE_SUN">
+        <description>
+			<ul>
+				<li>True Strike (recharge 3-6)</li>
+				<li>Word of Radiance (recharge 3-6)</li>
+				<li>Divine Smite (recharge 5-6)</li>
+				<li>Healing Word lvl 3 (3/Long rest)</li>
+				<li>Spellfire Storm (1/Long rest)</li>
+			</ul>
+        </description>
+        <sheet>
+            <description>
+				You gain the following spells:
+				(recharge 3-6) True Strike
+				(recharge 3-6) Word of Radiance
+				(recharge 5-6) Divine Smite
+				(3/Long rest )Healing Word, lvl 3
+				(3/Long rest) Spellfire Storm
+				Spell attack bonus is +9, Spell Save DC is 19
+			</description>
+        </sheet>
+		<rules>
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_TRUE_STRIKE" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WORD_OF_RADIANCE" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DIVINE_SMITE" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HEALING_WORD" />
+		</rules>
+    </element>
+</elements>

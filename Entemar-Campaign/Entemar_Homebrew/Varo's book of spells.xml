@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Coldlight Ray" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_COLDLIGHT_RAY">
+		<supports>Wizard</supports>
+		<description>
+			<p>You shoot a ray of ice cold light against a Creature in range that you can see.</p>
+			<p class="indent"> Make a ranged Spell attack against the target. On a hit, the target takes 3d10 cold damage and the ray explodes into a bright light, having the target make a Constitution saving throw or be blinded for the duration of the spell.</p>
+			 <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, you may target 1 addiotional creature for each slot level above 4th. In addition, for every second spell slot above the 4th, this spell deals an additional 1d10 cold damage</p>
+		</description>
+		<setters>
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">1 Round</set>
+			<set name="range">60 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a pich of Coldlightwalker dust (one Vial may carry 5 pinches)</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Finger Guns" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_FINGER_GUNS">
+		<supports>Bard, Sorcerer, Wizard</supports>
+		<description>
+			<p>You extend your forefinger and thumb, a dangerous gesture mimicking a gun. For the duration, your hand counts as a Simple Ranged weapon with a range of 60/240 feet and the slow mastery property. You can use your spellcasting ability instead of Dexterity for the attack rolls of this weapon. On a hit, the weapon deals 2d6 Force damage and doesn't add your ability modifier to damage.</p>
+			<p></p>
+			<p>On Higher Levels. The weapons normal range increases by 30 feet and its long range increases by 120 feet when you reach levels 5 (90/360), 11 (120/480) and 17 (150/600).</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Bonus Action</set>
+			<set name="duration">1 Minute</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Summon Lesser Draegloth" type="Spell" source="Entemar Homebrew" id="ID_HeyItsNothing_EntemarHomebrew_SPELL_SUMMON_LESSER_DRAEGLOTH">
+        <supports>Warlock, Wizard, Spell Saving Throw</supports>
+        <description>
+            <p>You utter a few words, summoning a weaker version of a Draegloth from the corners of the Abyss where they now reside. The Draegloth has a challenge rating of 5. The Draegloth appears in an unoccupied space you can see within range, and it disappears when it drops to 0 hit points or when the spell ends.</p>
+            <p class="indent">Roll initiative for the Draegloth, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.</p>
+            <p class="indent">At the end of each of the Draegloth's turns, it makes a Charisma saving throw. It has disadvantage on this saving throw if you say its name with your command. On a failed save, the Draegloth continues to obey you. On a successful save, your control of the Draegloth ends for the rest of the duration, and it spends its turns pursuing and attacking the nearest non demons to the best of its ability. If you stop concentrating on the spell before it reaches its full duration, an uncontrolled Draegloth doesn’t disappear for 1d6 rounds if it still has hit points.</p>
+            <p class="indent">As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned Draegloth can’t cross the circle or harm it, and it can’t target anyone within it. Using the material component in this manner consumes it when the spell ends.</p>
+            <p class="indent">If you cast this spell as an Elf, you may spend 4 hit points to compensate for the material component that requires elven blood.</p>
+            <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">half a vial of blood from a elf and half a vial of blood from a demon, which may be put together in the same vial</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+
+	<element name="True Strike (2024)" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_TRUE_STRIKE_(2024)">
+		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).</p>
+			<p>Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6).</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a weapon with wich you have proficiency and that is worth 1+ CP</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Project Eye" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_PROJECT_EYE">
+		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<p>You conjure a magical Eye within range. The Eye can have any shape and size you desire, this effect does not change the performance of the eye in any way. As long as this spell is active you see through this eye as if it is your own. As a bonus action, you may move the eye's position as long as it remains inside your range.</p>
+		</description>
+		<setters>
+			<set name="level">1</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a fresh tear</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Astraeus Accantus" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_ASTRAEUS_ACCANTUS">
+		<supports>Sorcerer, Wizard</supports>
+		<description>
+			<p>Smelt your foes with the concentration of powerful magic.</p>
+			<p>To cast this spell, you cannot have used any kind of Action, Bonus action, reaction or other interactions other than Moving this turn.</p>
+			<p>Once you cast this spell, you immediently end your turn to condense magic energy. While Condensing, you are concentrating. If your concentration ends before firing, the energy explodes and you turn into the center of the explosion.</p>
+			<p>At the start of your next turn, release the magic energy and shoot it at a point you can see within range. On impact, the energy explodes in a 20-foot radius and each creature within it must make a Dexterity saving throw.</p>
+			<p>A target takes 10d8 Fire damage on a failed save, or half as much on a successful one. The explosion spreads around corners and smelts metal object that aren't being worn or carried.</p>
+			<p>The turn you fired off the blast you can only cast cantrips when casting a spell.</p>
+			<p class="indent"><b><i>Magic Sacrifice:</i></b> Immediently when casting the spell, you can choose to spend extra spell slot. (You can only spend one spell slot of each level this way) for each combination of spellslots that equals 5, you fire off an extra blast, for up to 2 extra blasts.</p>
+		</description>
+		<setters>
+			<set name="level">5</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, 1 Round</set>
+			<set name="range">150 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a piece of carbon, which condenses into a small diamond afterwards</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
