@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<element name="Amphithere Breastplate, +1" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_Amphithere_ARMOR_1">
+	<info>
+        <update version="0.1.0">
+            <file name="Entemar-Wonderous-Items.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemar-Wonderous-Items.xml" />
+        </update>
+    </info>
+	<element name="Amphithere Breastplate, +1" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_AAMPHITHERE_ARMOR_1">
 		<description>
 			<p>You have a bonus to AC while wearing this Breastplate. You also gain resistance to poison and acid damage.</p>
 		</description>
@@ -20,7 +25,7 @@
 		</rules>
 	</element>
 
-	<element name="Amphitheres Bloodiron" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_Amphitheres_Bloodiron">
+	<element name="Amphitheres Bloodiron" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_AMPHITHERES_BLOODIRON">
 		<description>
 			<p>This armor was forged by combining Breastplate made of Amphitere scales and enhancing it with a once broken Bloodiron Armor.</p>
 			<p>You have a +3 bonus to AC while wearing this Breastplate. You also gain resistance to poison and acid damage.</p>
@@ -42,7 +47,7 @@
 		</rules>
 	</element>
 
-	<element name="Bracers of Shield, uneven" type="Magic Item" source="Entemar Homebrew" id="ID_HeyItsNothing_Entemar_Homebrew_MAGIC_ITEM_BRACERS_OF_Shield">
+	<element name="Bracers of Shield, uneven" type="Magic Item" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_MAGIC_ITEM_BRACERS_OF_SHIELD">
 		<description>
 			<p>These magic bracers emmit a soft magical glow, having long lost their original strength inside. The bracers let you cast the <ti>Shield</ti> spell once, regaining its charge by dawn.</p>
 		</description>
