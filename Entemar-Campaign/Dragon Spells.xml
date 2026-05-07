@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="White Dragon's Bite" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_WHITE_DRAGONS_BITE">
+		<supports>Wizard</supports>
+		<description>
+			<p>A white, spectral Dragon's Head emitting a dreadful cold forms above your head, biting a target with it's sharp teeth. Make a Melee Spell attack against the target. On a hit, the target takes 1d8 cold damage.</p>
+			<p>The Spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Bonus action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Black Dragon's Bite" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_BLACK_DRAGONS_BITE">
+		<supports>Wizard</supports>
+		<description>
+			<p>A black, spectral Dragon's Head forms above your head, biting a target with it's sharp teeth. Make a Melee Spell attack against the target. On a hit, the target takes 1d8 acid damage.</p>
+			<p>The Spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Bonus action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="White Dragon's Claw" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_WHITE_DRAGONS_CLAW">
+		<supports>Wizard</supports>
+		<description>
+			<p>A white, spectral Dragon claw, emitting a dreadful cold forms along your hand or weapon, stricking a target with it's sharp claws. Make a Melee Spell attack against the target. On a hit, the target takes 1d6 cold damage and looses 5ft. of Movement Speed until the end of its next turn.</p>
+			<p>The Spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">10 ft.</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Black Dragon's Claw" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_BLACK_DRAGONS_CLAW">
+		<supports>Wizard</supports>
+		<description>
+			<p>A black, spectral Dragon claw, emitting forms along your hand or weapon, stricking a target with it's sharp claws. Make a Melee Spell attack against the target. On a hit, the target takes 1d6 acid damage and must succeed on a Constitution saving throw or have its AC reduced by 1 until the end of your next turn.</p>
+			<p>The Spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">10 ft.</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="White Dragon Shield" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_WHITE_DRAGON_SHIELD">
+		<supports>Wizard</supports>
+		<description>
+			<p>A white, shining barrier made of dragon scales appears and protects you. Until the start of your next turn, you gain a +5 bonus to AC, including against the triggering attack. If the attack misses, the attacking creature makes a Intelligence Saving throw. On a missed save, the creature takes 2d6 cold damage</p>
+			<p>You cannot prepare this spell as long as you have any other "Shield" spell prepared</p>
+		</description>
+		<setters>
+			<set name="level">1</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 reaction, wich you take when you are hit by an attack</set>
+			<set name="duration">1 round</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Black Dragon Shield" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_BLACK_DRAGON_SHIELD">
+		<supports>Wizard</supports>
+		<description>
+			<p>A black, shining barrier made of dragon scales appears and protects you. Until the start of your next turn, you gain a +5 bonus to AC, including against the triggering attack. If the attack misses, the attacking creature makes a Intelligence Saving throw. On a missed save, the creature takes 2d6 acid damage</p>
+			<p>You cannot prepare this spell as long as you have any other "Shield" spell prepared</p>
+		</description>
+		<setters>
+			<set name="level">1</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 reaction, wich you take when you are hit by an attack</set>
+			<set name="duration">1 round</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="White Dragon's Tail" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_WHITE_DRAGONS_TAIL">
+		<supports>Wizard</supports>
+		<description>
+			<p>You manifest a spectral tail of a white dragon, stricking any target in your way as you lash it out. Make a Melee Spell Attack against the creatures in range. On a hit, a creature takes 5d4 cold damage and must succeed on a strengh Saving Throw. On a fail, the creature falls prone.</p>
+			<p><strong>At higher levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d4 for each slot level above 2nd.</p>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">15 ft. Cone</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Black Dragon's Tail" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_BLACK_DRAGONS_TAIL">
+		<supports>Wizard</supports>
+		<description>
+			<p>You manifest a spectral tail of a black dragon, stricking any target in your way as you lash it out. Make a Melee Spell Attack against the creatures in range. On a hit, a creature takes 5d4 acid damage and must succeed on a strengh Saving Throw. On a fail, the creature falls prone.</p>
+			<p><strong>At higher levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d4 for each slot level above 2nd.</p>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">15 ft. Cone</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="White Dragon's Breath" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_WHITE_DRAGONS_BREATH">
+		<supports>Wizard</supports>
+		<description>
+			<p>You create the spectral jaws of a fierce white dragon, breathing out it's icy breath against everyone in your way. Each creature in a 20 foot cone infront of you must make a Constitusion saving throw, taking 5d8 cold damage on a failed save or half as much on a successful one.</p>
+			<p><strong>At higher levels.</strong> When you cast this spell using a spellslot of 4th level or higher, increase the damage by 1d8 for each slot level above the 3rd.</p>
+		</description>
+		<setters>
+			<set name="level">3</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">20 ft. cone</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Black Dragon's Breath" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_BLACK_DRAGONS_BREATH">
+		<supports>Wizard</supports>
+		<description>
+			<p>You create the spectral jaws of a ghoulish black dragon, breathing out it's acidic breath against everyone in your way. Each creature in a 20 foot cone infront of you must make a Dexterity saving throw, taking 5d8 acid damage on a failed save or half as much on a successful one.</p>
+			<p><strong>At higher levels.</strong> When you cast this spell using a spellslot of 4th level or higher, increase the damage by 1d8 for each slot level above the 3rd.</p>
+		</description>
+		<setters>
+			<set name="level">3</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">20 ft. cone</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Eye of the Dragon" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_EYE_OF_THE_DRAGON">
+		<supports>Wizard</supports>
+		<description>
+			<p>You reflect your mind into that of another creature you can see withing range, making them feel the gaze of a dragon onto them. The target makes a charisma Saving Throw. On a failed save, the target suffers from the frightened condition for 1d4 turns and can do another saving throw at the end of each of its turns, ending the condition on a successful save. If the target achieves a critical failure, it is exposed until the end of the duration aswell.</p>
+			<p><strong>At higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>
+		</description>
+		<setters>
+			<set name="level">1</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Dragon's Wings" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_DRAGONS_WINGS">
+		<supports>Wizard</supports>
+		<description>
+			<p>You manifest spectral wings resembling those of a mighty dragon on your body. For the duration, or until the spell ends, you gain a flying speed equal to your walking speed and can hover. If the spell ends while you are still in the air, you fall to the ground unless you can stop the fall.</p>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">up to 10 Minutes</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<element name="Dragonblood Ice Knife" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_DRAGONBLOOD_ICE_KNIFE">
+		<supports>Wizard</supports>
+		<description>
+			<p>You create a shard made from the blood of a dragon, flinging it at a target within range. On its way, the shard splits and targets either the main target or another creature within 30 ft. of it. Make a ranged spell attack against the targets. On a hit, the target takes 1d10 piercing damage. Hit or miss, each shard then explodes unless multiple shards target the same creature, then just one shard explodes on that creature. The target and each creature withing 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage.</p>
+			<p><strong>At higher levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the shard splits into an additional piece for each slot level above the first.</p>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 ft.</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a vial of an ice dragon's blood worth at least 25GP</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
