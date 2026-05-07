@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+        <update version="0.1.0">
+            <file name="Entemars-Custom-Weapons.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemars-Custom-Weapons.xml" />
+        </update>
+    </info>
 	<element name="Sun and Moon" type="Magic Item" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_MAGIC_ITEM_SUN_AND_MOON">
 		<description>
 			<p>Sun and Moon's origin is unknown, yet their synergy is unquestionable. Now together, Sun and Moon unfold their combined power to strike true.</p>
