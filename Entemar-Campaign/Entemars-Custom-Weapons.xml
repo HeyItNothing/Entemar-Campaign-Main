@@ -6,7 +6,7 @@
             <file name="Entemars-Custom-Weapons.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemars-Custom-Weapons.xml" />
         </update>
     </info>
-	<element name="Sun and Moon" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_SUN_AND_MOON">
+	<element name="Sun and Moon" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_SUN_AND_MOON">
 		<description>
 			<p>Sun and Moon's origin is unknown, yet their synergy is unquestionable. Now together, Sun and Moon unfold their combined power to strike true.</p>
             <p class="indent">Sun and Moon are Magic Shortswords that are considered to be +2 weapons, yet if you wield them alone they are only +1 instead.</p>
@@ -25,7 +25,7 @@
 		</setters>
 	</element>
 
-	<element name="Moon" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_MOON_TOGETHER" >
+	<element name="Moon" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_MOON_TOGETHER" >
 		<description>
 			<p>This magic Shortswords blade is shaped like the moon in its half empty state, emitting a slight cold whenever you wield it. Its hilt coasts a symbol resembling a moon, its origins unknown, yet wielding it along Sun feels right.</p>
 			<p class="indent">This magic Shortsword counts as a +2 weapon, doing 1d6 slashing damage and an additional 1d4 cold or necrotic damage, which you choose before dealing the weapons damage.</p>
@@ -42,7 +42,7 @@
 		</setters>
 	</element>
 
-	<element name="Moon (Alone)" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_MOON_ALONE" >
+	<element name="Moon (Alone)" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_MOON_ALONE" >
 		<description>
 			<p>This magic Shortswords blade is shaped like the moon in its half empty state, emitting a slight cold whenever you wield it. Its hilt coasts a symbol resembling a moon, its origins unknown, yet it feels like something is missing...</p>
 			<p class="indent">This magic Shortsword counts as a +1 weapon, doing 1d6 slashing damage and an additional 1d4 cold or necrotic damage, which you choose before dealing the weapons damage.</p>
@@ -59,7 +59,7 @@
 		</setters>
 	</element>
 
-	<element name="Sun" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_SUN_TOGETHER" >
+	<element name="Sun" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_SUN_TOGETHER" >
 		<description>
 			<p>This magic short flamberge blade emmits a slight warmth from itself, the hilt coasting a symbol similar to the sun. It's origins are unknown, but wielding it along Moon feels right.</p>
 			<p class="indent">This magic Shortsword counts as a +2 weapon, doing 1d6 piercing damage and an additional 1d4 fire or radiant damage, which you choose before dealing the weapons damage.</p>
@@ -76,7 +76,7 @@
 		</setters>
 	</element>
 
-	<element name="Sun (alone)" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_SUN_ALONE" >
+	<element name="Sun (alone)" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_SUN_ALONE" >
 		<description>
 			<p>This magic short flamberge blade emmits a slight warmth from itself, the hilt coasting a symbol similar to the sun. It's origins are unknown, yet it feels like something is missing...</p>
 			<p class="indent">This magic Shortsword counts as a +1 weapon, doing 1d6 piercing damage and an additional 1d4 fire or radiant damage, which you choose before dealing the weapons damage.</p>
@@ -93,7 +93,7 @@
 		</setters>
 	</element>
 
-	<element name="Afterthought" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_AFTERTHOUGHT">
+	<element name="Afterthought" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_AFTERTHOUGHT">
 		<description>
 			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, you may use half your Intelligence Modifier (rounded down) in addition to your attack and damage roll modifier.</p>
             <p>This sword always drags behind 3 mirages of its blade when unsheathed. When you hit a creature with an attack of this sword, you roll 3d10, and for every roll above a 6, you deal addiotional Force damage equal to your Intelligence Modifier.</p>
@@ -110,7 +110,7 @@
 		</setters>
 	</element>
 
-	<element name="Hogim, the Sapphire Storm" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_HOGIM_THE_SAPPHIRE_STORM">
+	<element name="Hogim, the Sapphire Storm" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_HOGIM_THE_SAPPHIRE_STORM">
 		<description>
 			<p class="indent"><strong>Sentient Weapon</strong> This Longsword contains the concious soul of Hogim, an ancient Sapphire dragon. It can communicate telepathically with its owner in any language.</p>
 			<p class="indent"><strong>Hogim's might</strong> The might of this ancient dragon is so great, it allows you to be attuned to the Sword withoud needing an attunement slot. His might also allows him to take control of your body if he deems it needed.</p>
@@ -155,7 +155,7 @@
 		</rules>
 	</element>
 
- 	<element name="Draconic Hybrid" type="Feat Feature" source="Entemar Homebrew" id="ID_HIN_EH_FEAT_FEATURE_DRACONIC_HYBRID">
+ 	<element name="Draconic Hybrid" type="Feat Feature" source="Entemar" id="ID_HIN_EH_FEAT_FEATURE_DRACONIC_HYBRID">
         <description>
             <p>Using a bonus action, you can assume the form of a dragon hybrid. The form lasts for 10 Minutes or until you dispel it (no action required). In hybrid form, you gain following traits:</p>
 			<ul>
@@ -190,7 +190,7 @@
 		</setters>
 	</element>
 
-	<element name="Black Prince" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_BLACK_PRINCE">
+	<element name="Black Prince" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_BLACK_PRINCE">
 		<description>
 			<p>A long, black blade, as serrated as it gets. From a glance, one may assume it was primitive, but at a closer look, especially in combat, the genius of its design becomes quickly apparent. Small, glimmers of silver run along the non-serrated side of the blade showing that the blade has been scorched black and that silver was its original colour. Under the guard rests a small button, which is where the magical capabilities become obvious.
 
@@ -215,7 +215,7 @@ The Black Prince is freely capable of creating and igniting massive amounts of b
 		</setters>
 	</element>
 
-	<element name="Polished Ruby Blade" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_POLISHED_RUBY_BLADE">
+	<element name="Polished Ruby Blade" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_POLISHED_RUBY_BLADE">
 		<description>
 			<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. It's desceptively light and nimble blade seems almost indestructable and its handle fits perfectly in your hands. </p>
             <p>If you're not already able you can use this blade as a spellcasting focus and you can use your spellcasting ability as your damage and attack modifier</p>
@@ -233,7 +233,7 @@ The Black Prince is freely capable of creating and igniting massive amounts of b
 		</setters>
 	</element>
 
-	<element name="Ruby Blade Unpolished" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_RUBY_BLADE_UNPOLISHED">
+	<element name="Ruby Blade Unpolished" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_RUBY_BLADE_UNPOLISHED">
 		<description>
 			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. It's desceptively light and nimble blade seems almost indestructable and its handle fits perfectly in your hands. </p>
             <p>If you're not already able you can use this blade as a spellcasting focus and you can use your spellcasting ability as your damage and attack modifier</p>
@@ -251,7 +251,7 @@ The Black Prince is freely capable of creating and igniting massive amounts of b
 		</setters>
 	</element>
 
-<element name="Serpent's Fang" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_WEAPON_SERPENTS_FANG">
+<element name="Serpent's Fang" type="Magic Item" source="Entemar" id="ID_HIN_EH_WEAPON_SERPENTS_FANG">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p>This single-edged magic sword is made from the scrimshawed fang of a giant serpent. Its hilt changes shape to adjust to the grasp of any creature that picks it up. The weapon deals an extra 1d10 poison damage to any target it hits.
@@ -269,7 +269,7 @@ Versatile. This weapon can be used with one or two hands. A damage value in pare
 		</setters>
 	</element>
 
-	<element name="Voltharion" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_VOLTHARION">		
+	<element name="Voltharion" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_VOLTHARION">		
 		<description>
 			<p>Voltharion is an elvish forged longsword imbued with the power of electricity. You gain a +3 bonus to attack and damage rolls made with this weapon. On a hit, the target takes 4d4 additional lightning damage as the sword shocks them.</p>
 			<p class="indent"><b><i>Lightning Bolt.</i></b> This sword holds up to 6 charges. As an action, may expend one or more charges to cast a lightning bolt spell with a spell save DC of 17. For each additional charge, increase the spell level by 1 to a maximum of level 5 (2 extra charges). Additionally, you may use the lightning bolt spell diagonally. The sword regains up to 1d4 + 1 charges at dawn.</p>
@@ -286,7 +286,7 @@ Versatile. This weapon can be used with one or two hands. A damage value in pare
 		</setters>
 	</element>
 
-	<element name="Sun of War" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_SUN_OF_WAR">		
+	<element name="Sun of War" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_SUN_OF_WAR">		
 		<description>
 			<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, this weapon deals an extra 1d6 radiant damage, or 1d10 radiant damage if held with two hands alongside the normal 1d6 or 1d10 slashing damage.</p>
 			<p class="indent"><b><i>War Form:</i></b> While you hold this weapon in both hands you can use a bonus action to transform it into its war form. While in war form:</p>
@@ -318,7 +318,7 @@ Versatile. This weapon can be used with one or two hands. A damage value in pare
 		</rules>
 	</element>
 
- 	<element name="Grace of the Sun" type="Feat Feature" source="Entemar Homebrew" id="ID_HIN_EH_FEAT_FEATURE_GRACE_OF_THE_SUN">
+ 	<element name="Grace of the Sun" type="Feat Feature" source="Entemar" id="ID_HIN_EH_FEAT_FEATURE_GRACE_OF_THE_SUN">
         <description>
 			<ul>
 				<li>True Strike (recharge 3-6)</li>
