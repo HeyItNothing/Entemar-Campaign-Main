@@ -6,7 +6,7 @@
             <file name="Varos-book-of-spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Varos-book-of-spells.xml" />
         </update>
     </info>
-	<element name="Coldlight Ray" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_COLDLIGHT_RAY">
+	<element name="Coldlight Ray" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_COLDLIGHT_RAY">
 		<supports>Wizard</supports>
 		<description>
 			<p>You shoot a ray of ice cold light against a Creature in range that you can see.</p>
@@ -28,7 +28,7 @@
 		</setters>
 	</element>
 
-	<element name="Finger Guns" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_FINGER_GUNS">
+	<element name="Finger Guns" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_FINGER_GUNS">
 		<supports>Bard, Sorcerer, Wizard</supports>
 		<description>
 			<p>You extend your forefinger and thumb, a dangerous gesture mimicking a gun. For the duration, your hand counts as a Simple Ranged weapon with a range of 60/240 feet and the slow mastery property. You can use your spellcasting ability instead of Dexterity for the attack rolls of this weapon. On a hit, the weapon deals 2d6 Force damage and doesn't add your ability modifier to damage.</p>
@@ -50,7 +50,7 @@
 		</setters>
 	</element>
 
-    <element name="Summon Lesser Draegloth" type="Spell" source="Entemar Homebrew" id="ID_HeyItsNothing_EntemarHomebrew_SPELL_SUMMON_LESSER_DRAEGLOTH">
+    <element name="Summon Lesser Draegloth" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_SUMMON_LESSER_DRAEGLOTH">
         <supports>Warlock, Wizard, Spell Saving Throw</supports>
         <description>
             <p>You utter a few words, summoning a weaker version of a Draegloth from the corners of the Abyss where they now reside. The Draegloth has a challenge rating of 5. The Draegloth appears in an unoccupied space you can see within range, and it disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -76,28 +76,7 @@
         </setters>
     </element>
 
-	<element name="True Strike (2024)" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_TRUE_STRIKE_(2024)">
-		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
-		<description>
-			<p>Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).</p>
-			<p>Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6).</p>
-		</description>
-		<setters>
-			<set name="level">0</set>
-			<set name="school">Divination</set>
-			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Self</set>
-			<set name="hasVerbalComponent">false</set>
-			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">a weapon with wich you have proficiency and that is worth 1+ CP</set>
-			<set name="isConcentration">false</set>
-			<set name="isRitual">false</set>
-		</setters>
-	</element>
-
-	<element name="Project Eye" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_PROJECT_EYE">
+	<element name="Project Eye" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_PROJECT_EYE">
 		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You conjure a magical Eye within range. The Eye can have any shape and size you desire, this effect does not change the performance of the eye in any way. As long as this spell is active you see through this eye as if it is your own. As a bonus action, you may move the eye's position as long as it remains inside your range.</p>
@@ -117,7 +96,7 @@
 		</setters>
 	</element>
 
-	<element name="Astraeus Accantus" type="Spell" source="Entemar Homebrew" id="ID_HEYITSNOTHING_ENTEMAR_HOMEBREW_SPELL_ASTRAEUS_ACCANTUS">
+	<element name="Astraeus Accantus" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_ASTRAEUS_ACCANTUS">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>Smelt your foes with the concentration of powerful magic.</p>
