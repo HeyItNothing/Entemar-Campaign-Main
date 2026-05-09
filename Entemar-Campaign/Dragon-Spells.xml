@@ -6,7 +6,7 @@
             <file name="Dragon-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Dragon-Spells.xml" />
         </update>
     </info>
-	<element name="White Dragon's Bite" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_WHITE_DRAGONS_BITE">
+	<element name="White Dragon's Bite" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_WHITE_DRAGONS_BITE">
 		<supports>Wizard</supports>
 		<description>
 			<p>A white, spectral Dragon's Head emitting a dreadful cold forms above your head, biting a target with it's sharp teeth. Make a Melee Spell attack against the target. On a hit, the target takes 1d8 cold damage.</p>
@@ -27,7 +27,7 @@
 		</setters>
 	</element>
 
-	<element name="Black Dragon's Bite" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_BLACK_DRAGONS_BITE">
+	<element name="Black Dragon's Bite" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_BLACK_DRAGONS_BITE">
 		<supports>Wizard</supports>
 		<description>
 			<p>A black, spectral Dragon's Head forms above your head, biting a target with it's sharp teeth. Make a Melee Spell attack against the target. On a hit, the target takes 1d8 acid damage.</p>
@@ -48,7 +48,7 @@
 		</setters>
 	</element>
 
-	<element name="White Dragon's Claw" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_WHITE_DRAGONS_CLAW">
+	<element name="White Dragon's Claw" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_WHITE_DRAGONS_CLAW">
 		<supports>Wizard</supports>
 		<description>
 			<p>A white, spectral Dragon claw, emitting a dreadful cold forms along your hand or weapon, stricking a target with it's sharp claws. Make a Melee Spell attack against the target. On a hit, the target takes 1d6 cold damage and looses 5ft. of Movement Speed until the end of its next turn.</p>
@@ -69,7 +69,7 @@
 		</setters>
 	</element>
 
-	<element name="Black Dragon's Claw" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_BLACK_DRAGONS_CLAW">
+	<element name="Black Dragon's Claw" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_BLACK_DRAGONS_CLAW">
 		<supports>Wizard</supports>
 		<description>
 			<p>A black, spectral Dragon claw, emitting forms along your hand or weapon, stricking a target with it's sharp claws. Make a Melee Spell attack against the target. On a hit, the target takes 1d6 acid damage and must succeed on a Constitution saving throw or have its AC reduced by 1 until the end of your next turn.</p>
@@ -90,7 +90,7 @@
 		</setters>
 	</element>
 
-	<element name="White Dragon Shield" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_WHITE_DRAGON_SHIELD">
+	<element name="White Dragon Shield" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_WHITE_DRAGON_SHIELD">
 		<supports>Wizard</supports>
 		<description>
 			<p>A white, shining barrier made of dragon scales appears and protects you. Until the start of your next turn, you gain a +5 bonus to AC, including against the triggering attack. If the attack misses, the attacking creature makes a Intelligence Saving throw. On a missed save, the creature takes 2d6 cold damage</p>
@@ -111,7 +111,7 @@
 		</setters>
 	</element>
 
-	<element name="Black Dragon Shield" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_BLACK_DRAGON_SHIELD">
+	<element name="Black Dragon Shield" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_BLACK_DRAGON_SHIELD">
 		<supports>Wizard</supports>
 		<description>
 			<p>A black, shining barrier made of dragon scales appears and protects you. Until the start of your next turn, you gain a +5 bonus to AC, including against the triggering attack. If the attack misses, the attacking creature makes a Intelligence Saving throw. On a missed save, the creature takes 2d6 acid damage</p>
@@ -132,7 +132,7 @@
 		</setters>
 	</element>
 
-	<element name="White Dragon's Tail" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_WHITE_DRAGONS_TAIL">
+	<element name="White Dragon's Tail" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_WHITE_DRAGONS_TAIL">
 		<supports>Wizard</supports>
 		<description>
 			<p>You manifest a spectral tail of a white dragon, stricking any target in your way as you lash it out. Make a Melee Spell Attack against the creatures in range. On a hit, a creature takes 5d4 cold damage and must succeed on a strengh Saving Throw. On a fail, the creature falls prone.</p>
@@ -153,7 +153,7 @@
 		</setters>
 	</element>
 
-	<element name="Black Dragon's Tail" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_BLACK_DRAGONS_TAIL">
+	<element name="Black Dragon's Tail" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_BLACK_DRAGONS_TAIL">
 		<supports>Wizard</supports>
 		<description>
 			<p>You manifest a spectral tail of a black dragon, stricking any target in your way as you lash it out. Make a Melee Spell Attack against the creatures in range. On a hit, a creature takes 5d4 acid damage and must succeed on a strengh Saving Throw. On a fail, the creature falls prone.</p>
@@ -174,7 +174,7 @@
 		</setters>
 	</element>
 
-	<element name="White Dragon's Breath" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_WHITE_DRAGONS_BREATH">
+	<element name="White Dragon's Breath" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_WHITE_DRAGONS_BREATH">
 		<supports>Wizard</supports>
 		<description>
 			<p>You create the spectral jaws of a fierce white dragon, breathing out it's icy breath against everyone in your way. Each creature in a 20 foot cone infront of you must make a Constitusion saving throw, taking 5d8 cold damage on a failed save or half as much on a successful one.</p>
@@ -195,7 +195,7 @@
 		</setters>
 	</element>
 
-	<element name="Black Dragon's Breath" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_BLACK_DRAGONS_BREATH">
+	<element name="Black Dragon's Breath" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_BLACK_DRAGONS_BREATH">
 		<supports>Wizard</supports>
 		<description>
 			<p>You create the spectral jaws of a ghoulish black dragon, breathing out it's acidic breath against everyone in your way. Each creature in a 20 foot cone infront of you must make a Dexterity saving throw, taking 5d8 acid damage on a failed save or half as much on a successful one.</p>
@@ -216,7 +216,7 @@
 		</setters>
 	</element>
 
-	<element name="Eye of the Dragon" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_EYE_OF_THE_DRAGON">
+	<element name="Eye of the Dragon" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_EYE_OF_THE_DRAGON">
 		<supports>Wizard</supports>
 		<description>
 			<p>You reflect your mind into that of another creature you can see withing range, making them feel the gaze of a dragon onto them. The target makes a charisma Saving Throw. On a failed save, the target suffers from the frightened condition for 1d4 turns and can do another saving throw at the end of each of its turns, ending the condition on a successful save. If the target achieves a critical failure, it is exposed until the end of the duration aswell.</p>
@@ -237,7 +237,7 @@
 		</setters>
 	</element>
 
-	<element name="Dragon's Wings" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_DRAGONS_WINGS">
+	<element name="Dragon's Wings" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_DRAGONS_WINGS">
 		<supports>Wizard</supports>
 		<description>
 			<p>You manifest spectral wings resembling those of a mighty dragon on your body. For the duration, or until the spell ends, you gain a flying speed equal to your walking speed and can hover. If the spell ends while you are still in the air, you fall to the ground unless you can stop the fall.</p>
@@ -257,7 +257,7 @@
 		</setters>
 	</element>
 
-	<element name="Dragonblood Ice Knife" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_DRAGONBLOOD_ICE_KNIFE">
+	<element name="Dragonblood Ice Knife" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_DRAGONBLOOD_ICE_KNIFE">
 		<supports>Wizard</supports>
 		<description>
 			<p>You create a shard made from the blood of a dragon, flinging it at a target within range. On its way, the shard splits and targets either the main target or another creature within 30 ft. of it. Make a ranged spell attack against the targets. On a hit, the target takes 1d10 piercing damage. Hit or miss, each shard then explodes unless multiple shards target the same creature, then just one shard explodes on that creature. The target and each creature withing 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage.</p>
