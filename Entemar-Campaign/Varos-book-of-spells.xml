@@ -6,7 +6,7 @@
             <file name="Varos-book-of-spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Varos-book-of-spells.xml" />
         </update>
     </info>
-	<element name="Coldlight Ray" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_COLDLIGHT_RAY">
+	<element name="Coldlight Ray" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_COLDLIGHT_RAY">
 		<supports>Wizard</supports>
 		<description>
 			<p>You shoot a ray of ice cold light against a Creature in range that you can see.</p>
@@ -28,7 +28,7 @@
 		</setters>
 	</element>
 
-	<element name="Finger Guns" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_FINGER_GUNS">
+	<element name="Finger Guns" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_FINGER_GUNS">
 		<supports>Bard, Sorcerer, Wizard</supports>
 		<description>
 			<p>You extend your forefinger and thumb, a dangerous gesture mimicking a gun. For the duration, your hand counts as a Simple Ranged weapon with a range of 60/240 feet and the slow mastery property. You can use your spellcasting ability instead of Dexterity for the attack rolls of this weapon. On a hit, the weapon deals 2d6 Force damage and doesn't add your ability modifier to damage.</p>
@@ -50,7 +50,7 @@
 		</setters>
 	</element>
 
-    <element name="Summon Lesser Draegloth" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_SUMMON_LESSER_DRAEGLOTH">
+    <element name="Summon Lesser Draegloth" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_SUMMON_LESSER_DRAEGLOTH">
         <supports>Warlock, Wizard, Spell Saving Throw</supports>
         <description>
             <p>You utter a few words, summoning a weaker version of a Draegloth from the corners of the Abyss where they now reside. The Draegloth has a challenge rating of 5. The Draegloth appears in an unoccupied space you can see within range, and it disappears when it drops to 0 hit points or when the spell ends.</p>
@@ -76,7 +76,7 @@
         </setters>
     </element>
 
-	<element name="Project Eye" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_PROJECT_EYE">
+	<element name="Project Eye" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_PROJECT_EYE">
 		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You conjure a magical Eye within range. The Eye can have any shape and size you desire, this effect does not change the performance of the eye in any way. As long as this spell is active you see through this eye as if it is your own. As a bonus action, you may move the eye's position as long as it remains inside your range.</p>
@@ -96,7 +96,7 @@
 		</setters>
 	</element>
 
-	<element name="Astraeus Accantus" type="Spell" source="Entemar Homebrew" id="ID_HIN_EH_SPELL_ASTRAEUS_ACCANTUS">
+	<element name="Astraeus Accantus" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_ASTRAEUS_ACCANTUS">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>Smelt your foes with the concentration of powerful magic.</p>
