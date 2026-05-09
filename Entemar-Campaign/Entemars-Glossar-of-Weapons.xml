@@ -9,7 +9,7 @@
     <element name="Weapon Proficiency (Scythe)" type="Proficiency" source="Entemar Homebrew" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
         <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
     </element>
-<element name="Scythe" type="Weapon" source="Entemar Homebrew" id="ID_HeyItsNothing_EH_WEAPON_Scythe">
+<element name="Scythe" type="Weapon" source="Entemar Homebrew" id="ID_HIN_EH_WEAPON_SCYTHE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
 		<description>
 			<p></p>
