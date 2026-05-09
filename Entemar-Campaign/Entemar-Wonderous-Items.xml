@@ -6,7 +6,7 @@
             <file name="Entemar-Wonderous-Items.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemar-Wonderous-Items.xml" />
         </update>
     </info>
-	<element name="Amphithere Breastplate, +1" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_AAMPHITHERE_ARMOR_1">
+	<element name="Amphithere Breastplate, +1" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_AAMPHITHERE_ARMOR_1">
 		<description>
 			<p>You have a bonus to AC while wearing this Breastplate. You also gain resistance to poison and acid damage.</p>
 		</description>
@@ -26,7 +26,7 @@
 		</rules>
 	</element>
 
-	<element name="Amphitheres Bloodiron" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_AMPHITHERES_BLOODIRON">
+	<element name="Amphitheres Bloodiron" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_AMPHITHERES_BLOODIRON">
 		<description>
 			<p>This armor was forged by combining Breastplate made of Amphitere scales and enhancing it with a once broken Bloodiron Armor.</p>
 			<p>You have a +3 bonus to AC while wearing this Breastplate. You also gain resistance to poison and acid damage.</p>
@@ -48,7 +48,7 @@
 		</rules>
 	</element>
 
-	<element name="Bracers of Shield, uneven" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_BRACERS_OF_SHIELD">
+	<element name="Bracers of Shield, uneven" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_BRACERS_OF_SHIELD">
 		<description>
 			<p>These magic bracers emmit a soft magical glow, having long lost their original strength inside. The bracers let you cast the <ti>Shield</ti> spell once, regaining its charge by dawn.</p>
 		</description>
@@ -67,7 +67,7 @@
         </rules>
 	</element>
 
- 	<element name="Bracers of Shield" type="Feat Feature" source="Entemar Homebrew" id="ID_HIN_EH_FEAT_FEATURE_BRACERS_OF_SHIELD">
+ 	<element name="Bracers of Shield" type="Feat Feature" source="Entemar" id="ID_HIN_EH_FEAT_FEATURE_BRACERS_OF_SHIELD">
         <description>
             <p>Once per day, you may cast the shield spell without using a spellslot</p>
         </description>
@@ -76,7 +76,7 @@
         </sheet>
     </element>
 
-	<element name="Letos' Gifted Spellbook, +1" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_LETOS_GIFTED_SPELLBOOK_LEGENDARY">
+	<element name="Letos' Gifted Spellbook, +1" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_LETOS_GIFTED_SPELLBOOK_LEGENDARY">
 		<description>
 			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.</p>
 			<p class="indent">You can use this book as a spellbook. To attune yourself to this Legendary spellbook, you need to spend one straight hour bonding yourself with it. Once you are attuned to this spellbook, a mark appears on the palm of your hand. In addition, while you are attuned to this spellbook, you gain the following benefits</p>
@@ -102,7 +102,7 @@
 		</rules>
 	</element>
 
-	<element name="Letos' Gifted Spellbook, +1" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_LETOS_GIFTED_SPELLBOOK_INDIVIDUAL_LEGENDARY">
+	<element name="Letos' Gifted Spellbook, +1" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_LETOS_GIFTED_SPELLBOOK_INDIVIDUAL_LEGENDARY">
 		<description>
 			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.</p>
 			<p class="indent">You can use this book as a spellbook. To attune yourself to this Legendary spellbook, you need to spend one straight hour bonding yourself with it. Once you are attuned to this spellbook, a mark appears on the palm of your hand. In addition, while you are attuned to this spellbook, you gain the following benefits</p>
@@ -132,7 +132,7 @@
 		</rules>
 	</element>
 
-    <element name="Rune of Protection" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_RUNE_OF_PROTECTION">
+    <element name="Rune of Protection" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_RUNE_OF_PROTECTION">
 		<description>
 			<p>You gain a +1 bonus to your AC with this rune</p>
 		</description>
@@ -151,7 +151,7 @@
 		</rules>
 	</element>
 
-    <element name="Dragon Coat (Ice)" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_DRAGON_COAT_ICE">
+    <element name="Dragon Coat (Ice)" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_DRAGON_COAT_ICE">
 		<description>
 			<p>This sleeveless coat was made with the hide and scales oth a dragon. While wearing it you gain a +2 bonus to AC and resistance against damage dependant of the dragon used for the coats making.</p>
 		</description>
@@ -171,7 +171,7 @@
 		</rules>
 	</element>
 
-    <element name="Hidden Helmet" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_HIDDEN_HELMET">
+    <element name="Hidden Helmet" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_HIDDEN_HELMET">
 		<description>
 			<p>This shiny helmet is often seen only by the wearers comrades and the people dying in front of him. When weearing this helmets, gain a +2 bous to AC.</p>
 			<p>You can transform the Helmet into a simple ear piece, making it easy to both hide and travel with the helmet.</p>
@@ -191,7 +191,7 @@
 		</rules>
 	</element>
 
-    <element name="Sea Serpant's Cloak" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_SEA_SERPENT'S_CLOAK">
+    <element name="Sea Serpant's Cloak" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_SEA_SERPENT'S_CLOAK">
 		<description>
 			<p>While wearing this Cloak you gain the following benefits:</p>
 			<ul>
@@ -222,7 +222,7 @@
 		</rules>
 	</element>
 
-    <element name="Spell Stored Gem (White Dragon Shield)" type="Magic Item" source="Entemar Homebrew" id="ID_HIN_EH_MAGIC_ITEM_SPELL_STORED_GEM_WDS">
+    <element name="Spell Stored Gem (White Dragon Shield)" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_SPELL_STORED_GEM_WDS">
 		<description>
 			<p>This big gemstone is imbued with magic, yet suffers from the weaves might.</p>
 			<p class="indent">While equipped with this gem, you are able to cast the imbued spell but are restricted to these rules:</p>
