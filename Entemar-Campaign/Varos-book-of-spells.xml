@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.1.1">
+        <update version="0.0.1">
             <file name="Varos-book-of-spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Varos-book-of-spells.xml" />
         </update>
     </info>
