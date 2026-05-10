@@ -294,26 +294,6 @@
 		</setters>
         <rules>
             <grant type="feat feature" id="ID_HIN_EH_FEAT_FEATURE_BEELZEBUBS_EYES" />
+		</rules>
 	</element>
-
- 	<element name="Beelzebub's Eyes" type="Feat Feature" source="Entemar" id="ID_HIN_EH_FEAT_FEATURE_BEELZEBUBS_EYES">
-        <sheet>
-            <description> 
-            You have 5 charges
-            <strong>1 Charge - Flying Eye:</strong>
-            <strong>2 Charges - Inside Eye:</strong>
-            <strong>3 Charges - I Fly:</strong>
-            </description>
-        </sheet>
-    </element>
-	 	<element name="Beelzebub's Eyes" type="Feat Feature" source="Entemar" id="ID_HIN_EH_FEAT_FEATURE_BEELZEBUBS_EYES2">
-        <sheet>
-            <description> 
-            You have 5 charges
-            <strong>1 Charge - Flying Eye:</strong>
-            <strong>2 Charges - Inside Eye:</strong>
-            <strong>3 Charges - I Fly:</strong>
-            </description>
-        </sheet>
-    </element>
 </elements>
