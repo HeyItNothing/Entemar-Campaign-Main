@@ -126,7 +126,7 @@
 				<li>You have resistance to thinder and psychic damage</li>
 				<li>You gain a +2 bonus to your Spell attack bonus and your Spell Save DC</li>
 				<li>On a hit, the weapon does an additional 2d8 Thunder damage when held in one hand, or 3d10 Thunder damage when held in both hands.</li>
-				<li>When casting a spell that deals damage, the spell does an additional 2d6 Thunder damage and an additional 1d6 Thunder damage for every level of a spell slot spent to cast that spell.</li>
+				<li>While wielding Hogim, when casting a spell that deals damage, the spell does an additional 2d6 Psychic damage and an additional 1d6 Psychic damage for every level of a spell slot spent to cast that spell.</li>
 			</ul>
 			<p class="indent"><strong>Draconic Hybrid.</strong>You gain the Draconic Hybrid Feat</p>
 		</description>
@@ -166,7 +166,7 @@
 				<li>You surround yourself with a thunderous aura. The aura has a radius of 10 ft. and any creature of your choice who enters this radius for the first time recieves 1d10 thunder damage and recieves 1d6 psychic damage for every round it starts inside the aura afterwards.</li>
 				<li>You gain one extra action that you can use to either attack or cast a spell. When attacking this way, multi attack does not apply. If you already cast a spell this turn you cannot cast a spell above the 3rd level with this action.</li>
 				<li>On a hit, the weapon now deals 4d8 Thunder damage when held in one hand and 6d10 Thunder damage when held in both hands.</li>
-				<li>Your additional spell damage increases to 4d6 Thunder damage and an additional 2d6 Thunder damage for every level of a spell slot spent.</li>
+				<li>Your additional spell damage increases to 4d6 Psychic damage and an additional 2d6 Psychic damage for every level of a spell slot spent.</li>
 				<li>You gain an additional +5 to your AC</li>
 				<li>You gain an addition +4 to your spell attack bonus and spell safe dc.</li>
 			</ul>
