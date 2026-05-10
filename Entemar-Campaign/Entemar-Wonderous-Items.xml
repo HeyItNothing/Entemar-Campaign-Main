@@ -255,7 +255,7 @@
 			<p>While wearing this caped armor you have a +2 bonus to your AC. This breastplate is adorned with a cape of coated metal wings. While wearing this armor, you do not have the usual disadvantage on Dexterity (Stealth) checks.</p>
 			<p class="indent"><strong>Ground Shadow.</strong> While on the ground you gain an extra +1 bonus to AC and a +2 bonus to Dexterity (Stealth) checks.</p>
 			<p class="indent"><strong>Swift Flyer.</strong> While in the air, you can spend a bonus action to use the dash action. Additionaly, when you are hir by an attack (but before the damage) you can use a reaction to move 5ft. out of the way to avoid the attack instead.</p>
-            <p class="indent"><strong>Extend Wings.</strong> Using a bonus action you can unfold the armors wings. You gain a flying speed of 45ft. and you may hover for up to 10 Minutes. After 10 Minutes you descent at a rate of 60ft. per round.
+            <p class="indent"><strong>Extend Wings.</strong> Using a bonus action you can unfold the armors wings. You gain a flying speed of 45ft. and you may hover for up to 10 Minutes. After 10 Minutes you descent at a rate of 60ft. per round.</p>
             <p>You can fly for up to 30 Minutes in one day and regain all the spent time flying after a long rest. When using <strong>Swift Flyer</strong> to escape an attack you loose 1 Minute of your flight time.</p> 
 		</description>
 		<setters>
