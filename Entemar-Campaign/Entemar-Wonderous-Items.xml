@@ -296,4 +296,26 @@
             <grant type="feat feature" id="ID_HIN_EH_FEAT_FEATURE_BEELZEBUBS_EYES" />
 		</rules>
 	</element>
+	<element name="Beelzebub's Eyes" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_BEELZEBUBS_EYES2">
+		<description>
+			<p>This bracelet is adorned with 5 gemstones resembling eyes, almost like marbles but more surreal.</p>
+            <p>While wearing this bracelet, you may spend charges to activate the following abilities:</p>
+            <ul>
+                <li><strong>1 Charge - Flying Eye:</strong> A tiny fly crawls out of one of the eye sockets of the bracelet. You can telepathically command the fly and see through its eye while closing your own eyes. The fly has a reach of 120ft., has 1 Hit Point and an AC of 14. It shares your vision types.</li>
+                <li><strong>2 Charges - Inside Eye:</strong> You command a fly to embed itself into the skin of a creature. Make a spell attack. On a hit, the target suffer the poisoned condition for 1d6 rounds and takes 1d4 damage of your choice from Acid or Necrotic at the start of each of its turn as long as it has the poisoned condition.</li>
+                <li><strong>3 Charges - I Fly:</strong> As an bonus action, you may teleport to the location of one of your flies. Make a Dexterity (Stealth) check against the nearest creature against their passive perception after the teleport. If there is no creature in a 60ft. radius, you automatically succeed on the check. If you succeed, you regain your bonus action.</li>
+            </ul>
+            <p> You have 5 Charges, one for each Eye on the bracelet. You regain 1d4 charges daily at midnight or 1 charge whenever a fly enters the bracelet.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">false</set>
+			<set name="slot">misc</set>
+		</setters>
+        <rules>
+            <grant type="feat feature" id="ID_HIN_EH_FEAT_FEATURE_BEELZEBUBS_EYES" />
+		</rules>
+	</element>
 </elements>
