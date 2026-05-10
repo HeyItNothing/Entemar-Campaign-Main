@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="Entemars-Custom-Weapons.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemars-Custom-Weapons.xml" />
         </update>
     </info>
@@ -346,4 +346,29 @@ Versatile. This weapon can be used with one or two hands. A damage value in pare
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HEALING_WORD" />
 		</rules>
     </element>
+
+	<element name="Nigredo" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_NIGREDO">
+		<description>
+			<p>This magic Dagger was made by a perculiar persion, forging it to be multiple weapons at once. This weapon gives you a +3 bonus to your attacks with it.</p>
+            <p class="indent"><strong>Form Change.</strong> As part of you attack action you may change the weapon int one of its 3 forms:</p>
+            <ul>
+                <li><strong>Dagger (Nick)</strong> 1d4 + 3 piercing + 1d4 lightning. The Default Form</li>
+                <li><strong>Rapier (Vex)</strong> 1d8 + 3 piercing + 1d4 lightning. The Comabt Form</li>
+                <li><strong>Whip (Slow)</strong> 1d6 + 3 slashing + 1d4 lightning, reach (15ft.)</li>
+            </ul>
+            <p>While attuned to this weapon, and only with this weapon, you only need mastery in one of the weapons 3 Masteries. Only the mastery of the current form is active. Additionally, while this weapon is in either the Dagger form or the Rapier form, you may use the <strong>Sting</strong> ability.</p>
+            <p class="indent"><strong>Sting (recharge, 5-6):</strong> The blade shoots forward up to 25ft. When hitting a creture, the weapon deals 2d6 + 3 piercing damage + 2d4 lightning damage. The weapon then retracts into its Rapier form.</p>
+            <p>When you make a critical hit the weapon deals an additional 3d4 lightning damage and the target becomes paralyzed for 1 round.</p>
+		</description>
+		<setters>
+			<set name="keywords">dagger, rapier, whip</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Dagger</set>
+		</setters>
+	</element>
 </elements>
