@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Letos" type="Deity" source="Entemar" id="ID_HIN_EH_DEITY_LETOS">
+        <description>
+            <p class="flavor">dragon god of knowledge</p>
+        </description>
+        <setters>
+            <set name="setting">The one King</set>
+            <set name="alignment">N</set>
+            <set name="domains">Astral Sea</set>
+            <set name="symbol">Lotus flower inside a triangle</set>
+            <set name="gender">male</set>
+        </setters>
+        <sheet>
+            <description>dragon god of knowledge</description>
+        </sheet>
+    </element>
+
+    <element name="Soleil" type="Deity" source="Entemar" id="ID_HIN_EH_DEITY_SOLEIL">
+        <description>
+            <p class="flavor">goddess of sun</p>
+        </description>
+        <setters>
+            <set name="setting">The one King</set>
+            <set name="alignment">NG</set>
+            <set name="domains">Nature, Tempest</set>
+            <set name="symbol">A half-Sun</set>
+            <set name="gender">female</set>
+        </setters>
+        <sheet>
+            <description>goddess of sun</description>
+        </sheet>
+    </element>
+
+    <element name="Lun" type="Deity" source="Entemar" id="ID_WOTC_PHB_DEITY_LUN">
+        <description>
+            <p class="flavor">goddess of moon</p>
+        </description>
+        <setters>
+            <set name="setting">The one King</set>
+            <set name="alignment">NG</set>
+            <set name="domains">Nature, Tempest</set>
+            <set name="symbol">A half-Moon</set>
+            <set name="gender">female</set>
+        </setters>
+        <sheet>
+            <description>goddess of moon</description>
+        </sheet>
+    </element>
+</elements>
