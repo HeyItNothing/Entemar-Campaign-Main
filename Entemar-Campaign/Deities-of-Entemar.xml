@@ -3,7 +3,7 @@
 	<info>
 		<name></name>
         <update version="0.0.1">
-            <file name="Deities-of-Entemar.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Varos-book-of-spells.xml" />
+            <file name="Deities-of-Entemar.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Deities-of-Entemar.xml" />
         </update>
     </info>
     <element name="Letos" type="Deity" source="Entemar" id="ID_HIN_EH_DEITY_LETOS">
