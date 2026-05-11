@@ -298,6 +298,7 @@
 	</element>
 
  	<element name="Beelzebub's Eyes" type="Feat Feature" source="Entemar" id="ID_HIN_EH_FEAT_FEATURE_BEELZEBUBS_EYES">
+		<description>You have 5 charges. You may use the charges to use the abilities of Beelzebub's eyes</description>
         <sheet>
             <description> 
             You have 5 charges
