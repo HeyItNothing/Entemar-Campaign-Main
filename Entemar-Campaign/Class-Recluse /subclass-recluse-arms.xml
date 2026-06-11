@@ -4,7 +4,7 @@
 		  <name>Recluse, Nature of Arms</name>
 		  <description>A Subclass for the Reclused based on weapon combat</description>
 		  <update version="0.0.1">
-		  	<file name="subclass-recluse-arms.xml" url="" />
+		  	<file name="subclass-recluse-arms.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Class-Recluse%20/subclass-recluse-arms.xml" />
 	  	</update>
   	</info>  
   
