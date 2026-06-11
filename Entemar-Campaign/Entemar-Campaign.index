@@ -13,5 +13,9 @@
         <file name="Entemars-Glossar-of-Weapons.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemars-Glossar-of-Weapons.xml" />
         <file name="Varos-book-of-spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Varos-book-of-spells.xml" />
         <file name="Deities-of-Entemar.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Deities-of-Entemar.xml" />
+        <file name="class-recluse.xml" url="" />
+        <file name="spells-recluse.xml" url="" />
+        <file name="subclass-recluse-arms.xml" url="" />
+        <file name="subclass-recluse-sense.xml" url="" />
     </files>
 </index>
