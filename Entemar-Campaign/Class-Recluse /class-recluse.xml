@@ -39,12 +39,9 @@
 			</ul>
 			<h5>RECLUSE FEATURES</h5>
 			<table class="class-features">
-				<tr style="font-weight: bold">
-					<td class="col-5" rowspan="2">Level</td>
-					<td class="col-20 left" rowspan="2">Class Features</td>
-					<td class="col-5" rowspan="2">Known<br />Cantrips</td>
-					<td rowspan="2">Dodges</td>
-				</tr>
+				<thead>
+					<tr style="font-weight: bold"><td>Level</td><td class="col-50 left">Class Features</td><td>Known Cantrips</td><td>Dodges</td></tr>
+				</thead>
 				<tr><td>1</td><td class="left">Magic Cocktail, Spellcasting, Meek Dodge</td><td>4</td><td>2</td></tr>
 				<tr><td>2</td><td class="left">Expertise, Lone Survivalist</td><td>4</td><td>2</td></tr>
 				<tr><td>3</td><td class="left">Recluse Subclass</td><td>6</td><td>2</td></tr>
