@@ -192,9 +192,7 @@
 
 	<element name="Black Prince" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_BLACK_PRINCE">
 		<description>
-			<p>A long, black blade, as serrated as it gets. From a glance, one may assume it was primitive, but at a closer look, especially in combat, the genius of its design becomes quickly apparent. Small, glimmers of silver run along the non-serrated side of the blade showing that the blade has been scorched black and that silver was its original colour. Under the guard rests a small button, which is where the magical capabilities become obvious.
-
-The Black Prince is freely capable of creating and igniting massive amounts of black powder with its serrated edge, which when in the hands of a master, turns this weapon from a master-crafted sword to something resembling a hand-held siege weapon.</p>
+			<p>A long, black blade, as serrated as it gets. From a glance, one may assume it was primitive, but at a closer look, especially in combat, the genius of its design becomes quickly apparent. Small, glimmers of silver run along the non-serrated side of the blade showing that the blade has been scorched black and that silver was its original colour. Under the guard rests a small button, which is where the magical capabilities become obvious. The Black Prince is freely capable of creating and igniting massive amounts of black powder with its serrated edge, which when in the hands of a master, turns this weapon from a master-crafted sword to something resembling a hand-held siege weapon.</p>
 			<p class="indent"><strong>Strange Form.</strong> Black Prince deals 1d8 slashing damage on a hit, and has the Finesse property.</p>
 			<p class="indent"><strong>Rune of Flames.</strong> Black Prince is engraved with old runes resembling flames, making it deal an extra 1d6 fire damage on hit.</p>
 			<p class="indent"><strong>Weapon enhancement.</strong> The sharpness of Black Prince enhances the weapon to be a +1 Weapon</p>
@@ -288,7 +286,7 @@ Versatile. This weapon can be used with one or two hands. A damage value in pare
 
 	<element name="Sun of War" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_SUN_OF_WAR">		
 		<description>
-			<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, this weapon deals an extra 1d6 radiant damage, or 1d10 radiant damage if held with two hands alongside the normal 1d6 or 1d10 slashing damage.</p>
+			<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, this weapon deals an extra 1d8 radiant damage, or 1d10 radiant damage if held with two hands alongside the normal 1d8 or 1d10 slashing damage.</p>
 			<p class="indent"><b><i>War Form:</i></b> While you hold this weapon in both hands you can use a bonus action to transform it into its war form. While in war form:</p>
 				<ul>
 					<li>The Weapon is considered a Greatsword instead of a Longsword. You deal 4d8 Radiant damage on a hit, the weapon has the Two-Handed property and the Graze mastery.</li>
@@ -370,5 +368,35 @@ Versatile. This weapon can be used with one or two hands. A damage value in pare
 			<set name="enhancement">3</set>
 			<set name="weapon">Dagger</set>
 		</setters>
+	</element>
+
+	<element name="Black Emperor" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_BLACK_EMPEROR">
+		<description>
+			<p>A long, black blade, once called the Black Prince, now reforged to burn even brighter.</p>
+			<p class="indent"><strong>Strange Form.</strong> Black Prince deals 1d8 slashing damage on a hit, and has the Finesse property.</p>
+			<p class="indent"><strong>Rune of Flames.</strong> Black Emporer is engraved with old runes resembling flames, making it deal an extra 1d8 fire damage on hit.</p>
+			<p class="indent"><strong>Weapon enhancement.</strong> The unpresented sharpness of Black Emperor enhances the weapon to be a +3 Weapon</p>
+			<p class="indent"><strong>World on Fire.</strong> While attuned to this weapon you get a special <i>heat</i> vision of up to 90ft. (this is considered dark vision and blind sight). You can also see living creatures through walls that are up to 5ft. thick.</p>
+			<p class="indent"><strong>Fire Reliance.</strong> Any feature below this fails to function in water, taking the action but doing nothing.</p>
+            <p class="indent"><strong>Searing Flame.</strong> As a bonus action, or as part of drawing the weapon, you can ignite it. While ignited, black emperor deals an extra 2d8 fire damage and sets hit targets ablaze, dealing 1d8 fire damage on the start of its next turn.</p>
+            <p class="indent"><strong>Oni's Fury.</strong> If you hit something with a melee attack that isn't a creature while Spark-Out is active, you may then launch yourself. Everything within 5 feet of you takes 1d8 fire damage, and you may move in any direction up to 60ft. (minimum of 10ft.), not provoking opportunity attacks. When you jump while <i>Oni's Fury</i> is active, you triple your jump distance (do this only if you moved 10ft. before jumping). If you can't move more than 5ft. or choose to stand still, you instead deal 2d8 fire damage to everything within 10ft. of you.</p>
+            <p class="indent"><strong>Emperor's clamor.</strong> As an action, you may release a massive, 30-foot radius cloud of black powder (centred on you). This area is considered heavily obscured. If an attack with black emperor or something else that deals fire damage hits within the cloud, it explodes. Everything within 5 feet of the cloud takes 2d8 fire damage, 4d8 if they are within the cloud. You yourself are immune to these flames (This is not considered immunity to fire damage) The cloud disappears after this but will linger for 5 minutes prior to ignition. You may only do this once every 10 minutes, up to 3 times a day, regaining the uses at dawn of the next day.</p>
+		</description>
+		<setters>
+			<set name="keywords">longsword,radiant</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+		<rules>
+			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
+			<stat name="darkvision:range" value="90" />
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+			<stat name="blindsight:range" value="90" />
+		</rules>
 	</element>
 </elements>
