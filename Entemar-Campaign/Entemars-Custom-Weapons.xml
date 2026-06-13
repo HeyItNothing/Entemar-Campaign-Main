@@ -381,13 +381,13 @@ Versatile. This weapon can be used with one or two hands. A damage value in pare
             <p class="indent"><strong>Emperor's clamor.</strong> As an action, you may release a massive, 30-foot radius cloud of black powder (centred on you). This area is considered heavily obscured. If an attack with black emperor or something else that deals fire damage hits within the cloud, it explodes. Everything within 5 feet of the cloud takes 2d8 fire damage, 4d8 if they are within the cloud. You yourself are immune to these flames (This is not considered immunity to fire damage) The cloud disappears after this but will linger for 5 minutes prior to ignition. You may only do this once every 10 minutes, up to 3 times a day, regaining the uses at dawn of the next day.</p>
 		</description>
 		<setters>
-			<set name="keywords">longsword,radiant</set>
+			<set name="keywords">longsword,fire</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="longsword">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
-			<set name="enhancement">1</set>
+			<set name="enhancement">3</set>
 			<set name="weapon">Longsword</set>
 		</setters>
 		<rules>
