@@ -139,9 +139,9 @@
 			<set name="materialComponent">Short- or Longsword</set>
 			<set name="duration">Instantaneous</set>
 		</setters>
-</element>
+	</element>
 	
-	<element name="Blue-Flame Slash" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_BLUEFLAME_Slash">
+	<element name="Blue-Flame Slash" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_BLUEFLAME_SLASH">
 		<supports>Swordmage</supports>
 		<description>
 			<p> You swing your weapon and release a crescent-shaped slash of blue flame through the air toward a creature within range. Make a ranged spell attack against the target. This Slash slices effortlessly through wood, stone, and other mundane matter.</p>
