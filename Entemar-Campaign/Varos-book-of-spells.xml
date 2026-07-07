@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="Varos-book-of-spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Varos-book-of-spells.xml" />
         </update>
     </info>
@@ -123,7 +123,7 @@
 	</element>
 
 	<element name="Blue-Flame Blade" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_BLUEFLAME_BLADE">
-		<supports>Swordmage</supports>
+		<supports>AASM_Swordmage</supports>
 		<description>
 			<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects and your spellcasting modifier as fire damage. The strike releases a sharp arc of blue flame that can cut through wood, stone, and other mundane matter as it travels, but it is stopped by magic-infused materials.</p>
 			<p class="indent">This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target on a hit. The damage roll increase by 1d8 at 11th level (2d8) and 17th level (3d8).</p>
@@ -142,7 +142,7 @@
 	</element>
 	
 	<element name="Blue-Flame Slash" type="Spell" source="Entemar" id="ID_HIN_EH_SPELL_BLUEFLAME_SLASH">
-		<supports>Swordmage</supports>
+		<supports>AASM_Swordmage</supports>
 		<description>
 			<p> You swing your weapon and release a crescent-shaped slash of blue flame through the air toward a creature within range. Make a ranged spell attack against the target. This Slash slices effortlessly through wood, stone, and other mundane matter.</p>
 			<p class="indent">On a hit, the target takes 3d8 fire damage.</p>
