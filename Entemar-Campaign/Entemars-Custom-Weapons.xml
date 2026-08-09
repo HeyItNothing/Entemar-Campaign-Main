@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="Entemars-Custom-Weapons.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemars-Custom-Weapons.xml" />
         </update>
     </info>
@@ -123,7 +123,7 @@
 				<li>Your intelligence score becomes 24, this feature does not work if your intelligence score already is 24 or greater.</li>
 				<li>You gain darkvision to up to 120 ft. and blindsight to up to 60 ft.</li>
 				<li>You gain a +1 bonus to your AC</li>
-				<li>You have resistance to thinder and psychic damage</li>
+				<li>You have resistance to Thunder and Psychic damage</li>
 				<li>You gain a +2 bonus to your Spell attack bonus and your Spell Save DC</li>
 				<li>On a hit, the weapon does an additional 2d8 Thunder damage when held in one hand, or 3d10 Thunder damage when held in both hands.</li>
 				<li>While wielding Hogim, when casting a spell that deals damage, the spell does an additional 2d6 Psychic damage and an additional 1d6 Psychic damage for every level of a spell slot spent to cast that spell.</li>
