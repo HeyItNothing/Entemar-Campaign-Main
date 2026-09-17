@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="Agathomancy-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Agathomancy-Spells.xml" />
         </update>
     </info>
@@ -60,8 +60,8 @@
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>You gather good and evil Energy into your hands, mixing it and firing it off against a creature within reach. Before you fire off the beam, choose:</p>
-            <p class="indent"><strong><em>Agatho</em></strong> You fire off two beams, choosing their allignements before firing them off. Golden beams heal a creature by 1d8, foul beams deal 1d8 necrotic damage on hit. You make a ranged spell attack for foul beams.</p>
-            <p class="indent"><strong><em>Agios</em></strong> You fire off one golden beam, healing the creature by 1d10.</p>
+            <p class="indent"><strong><em>Agatho</em></strong> You fire off two beams, choosing their allignements before firing them off. Golden beams heal a creature by 1d8, foul beams deal 1d8 necrotic damage on hit. You make a ranged spell attack for foul beams. You can only heal with this Path during combat.</p>
+            <p class="indent"><strong><em>Agios</em></strong> You fire off one golden beam, healing the creature by 1d10. You can only choose this Path durring Combat.</p>
             <p class="indent"><strong><em>Kakos</em></strong> You fire off one foul beam, make a ranged spell attack against the creature. On a hit, the spell deals 1d10 Necrotic damage.</p>
             <p class="indent">The spell creates more beams when you reach higher levels: one additional beam at 5th level, two additional beams at 11th level, and three additional beams at 17th level. You can direct the beams at the same target or different ones. Make a seperate attack roll for each beam if required.</p>
 		</description>
@@ -156,26 +156,26 @@
 		</setters>
 	</element>
 
-    <element name="Agathoic Blade" type="Spell" source="Entemar" id="ID_HIN_SPELL_AGATHOIC_BLADE2">
+    <element name="Chaos Degradation" type="Spell" source="Entemar" id="ID_HIN_SPELL_CHAOS_DEGRADATION">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
-			<p>You cover the weapon used in the spell's casting with a twisted energy and make a melee attack with it against one creature within 5 feet of you.  On a hit, the target suffers the weapon attack's normal effects, then choose:</p>
-            <p class="indent"><strong><em>Agatho</em></strong> Until the start of your next turn, if the creature willingly moves, the spell deals 2d4 radiant damage. If the creature attacks or uses a spell that causes damage, the attack or spell deals 2d4 less damage. The damage is then hurled against a creature within 15 feet of the attacking creature as necrotic damage. The spell ends after one effect occurs.</p>
-            <p class="indent"><strong><em>Agios</em></strong> Until the start of your next turn, if the creature attacks or uses a spell that deals damage, the spell deals 1d8 radiant damage and the spell ends.</p>
-            <p class="indent"><strong><em>Kakos</em></strong> A dark energy flies towards another creature within 5-foot of the attacked creature. The spell deals 1d8 Necrotic damage to the new target.</p>
-            <p class="indent">This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d4 necrotic damage and 1d4 radiant damage to the target on a hit, and the damage the target takes from the spell's respective effects increases by 1 die. Both damage rolls increase by 1 die at 11th level (2d4 and 2 die) and again at 17th level (3d4 and 3 die).</p>
+			<p>You create flames, condensing them into a powerfull force before throwing them against your foes at a point within range. Before you send off the flames, choose:</p>
+            <p class="indent"><strong><em>Agatho</em></strong> The point explodes into dense flames that shine golden and black in a 15-foot radius sphere centered on that point and it pulls in any creature and loose object in a 10-foot radius around that sphere. Each creature in the sphere makes a Dexterity saving throw. A target takes 4d6 Necrotic damage and 4d6 Radiant damage on a failed save, or half as much on a successful one. A target that got pulled into the explosion takes 3d4 Necrotic damage and 3d4 Radiant damage instead.</p>
+            <p class="indent"><strong><em>Agios</em></strong> The point explodes in golden flames. Each creature in a 20-foot radius sphere centered on that point must make a Dexterity saving throw. A target takes 4d6 Fire damage and 4d6 Radiant damage on a failed save, or half as much on a successful one. The flames spread around corners and lingers for 1 Round. Creatures starting their turn inside the flames or walking into them for the first time recieve 1d4 fire damage and 1d4 radiant damage.</p>
+			<p class="indent"><strong><em>Kakos</em></strong> A 5-foot wide sphere appears at the point that lingers until the start of your 2nd turn after this one. If a creature starts it turn within 30 feet of the sphere, it makes a Dexterity saving throw. A target is pulled 10 feet towards the sphere and looses all but 5 Movement on a failed save. If a creature touches the sphere, the sphere explodes, dealing 4d8 Necrotic damage and 4d8 Cold damage. The sphere then collapses, dealing 2d4 Necrotic damage and 2d4 Cold damage to every other creature within 30 feet.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> The spells damage increased by 1d4/1d6/1d8 for one type of damage of your choice per Spell Slot Level above the 3rd. (For example, you can either increase the fire damage OR the radiant damage of the Agios effect by 1d6 per spell slot level, but not both)</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">0</set>
+			<set name="level">3</set>
 			<set name="school">Agathomancy</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
-			<set name="range">Self</set>
+			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">A melee weapon worth at least 1 sp</set>
+			<set name="materialComponent">A piece of coal which condenses into a seemingly worthless diamond</set>
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -184,11 +184,11 @@
     <element name="Agathoic Blade" type="Spell" source="Entemar" id="ID_HIN_SPELL_AGATHOIC_BLADE2">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
-			<p>You cover the weapon used in the spell's casting with a twisted energy and make a melee attack with it against one creature within 5 feet of you.  On a hit, the target suffers the weapon attack's normal effects, then choose:</p>
-            <p class="indent"><strong><em>Agatho</em></strong> Until the start of your next turn, if the creature willingly moves, the spell deals 2d4 radiant damage. If the creature attacks or uses a spell that causes damage, the attack or spell deals 2d4 less damage. The damage is then hurled against a creature within 15 feet of the attacking creature as necrotic damage. The spell ends after one effect occurs.</p>
-            <p class="indent"><strong><em>Agios</em></strong> Until the start of your next turn, if the creature attacks or uses a spell that deals damage, the spell deals 1d8 radiant damage and the spell ends.</p>
-            <p class="indent"><strong><em>Kakos</em></strong> A dark energy flies towards another creature within 5-foot of the attacked creature. The spell deals 1d8 Necrotic damage to the new target.</p>
-            <p class="indent">This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d4 necrotic damage and 1d4 radiant damage to the target on a hit, and the damage the target takes from the spell's respective effects increases by 1 die. Both damage rolls increase by 1 die at 11th level (2d4 and 2 die) and again at 17th level (3d4 and 3 die).</p>
+			<p>You touch a willing creature, filling it with both holy and unholy prowess to harness for the spells duration. When you touch the creature, choose:</p>
+            <p class="indent"><strong><em>Agatho</em></strong> The target gains resistance against the first type of damage it takes (If it takes multiple damage types at once, choose the one that did the most damage). Additionally, the first time the target hits a creature with a melee attack during this spells duration, it deals an additional 4d8 of your choice between Radiant or Necrotic damage.</p>
+            <p class="indent"><strong><em>Agios</em></strong> The target gains resistance to radiant damage. It also gains temporary Hit Points as high as your spellcasting Modifier + your proficency bonus.</p>
+            <p class="indent"><strong><em>Kakos</em></strong> The target gains resistance to Necrotic damage. Additionally, the first time the target hits a creature with a melee attack in its turn, it deals an additional 2d8 Necrotic damage.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> You can touch one additional willing creature for every Spell Slot Level above the 4th. You may choose a different Path for each creature.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -214,6 +214,11 @@
             <p class="indent"><strong><em>Agios</em></strong> You summon a Battleforce Angel (CR-5)</p>
             <p class="indent"><strong><em>Kakos</em></strong> You summon a Rot Angel (CR-5)</p>
             <p class="indent"><strong><em>At Higher Levels</em></strong> The Challenge Rating (CR) of the summoned creature increases by 1 for each spell slot level above the 5th.</p>
+			<div class="reference">
+				<div element="ID_HIN_INFORMATION_BATTLEFORCE_ROT_STATBLOCK" />
+				<div element="ID_HIN_INFORMATION_BATTLEFORCE_ANGEL_STATBLOCK" />
+				<div element="ID_HIN_INFORMATION_ROT_ANGEL_STATBLOCK" />
+			</div>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -229,5 +234,105 @@
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
+	</element>
+
+	<element name="Battleforce Rot" type="Information" source="Entemar" id="ID_HIN_INFORMATION_BATTLEFORCE_ROT_STATBLOCK">
+		<description>
+			<h4 style="margin-top:0px" />
+			<p style="margin-bottom:5px"><i>Medium Celestial (Skirmisher), Chaotic Neutral</i></p>
+			<ul class="unstyled mb">
+				<li style="margin-bottom:-1em"><b>AC</b> 17</li>
+				<li><b>HP</b> 86 (12d8 + 30)</li>
+				<li><b>Speed</b> 30 ft., Fly 60 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:2px;margin-bottom:10px">
+				<tr style="font-size:8px"><td colspan="2" /><td>MOD</td><td>SAVE</td><td colspan="2" /><td>MOD</td><td>SAVE</td><td colspan="2" /><td>MOD</td><td>SAVE</td></tr>
+				<tr><td><b>STR</b></td><td>12</td><td>+1</td><td>+1</td><td><b>DEX</b></td><td>14</td><td>+2</td><td>+2</td><td><b>CON</b></td><td>14</td><td>+2</td><td>+5</td></tr>
+				<tr><td><b>INT</b></td><td>10</td><td>+0</td><td>+0</td><td><b>WIS</b></td><td>16</td><td>+3</td><td>+6</td><td><b>CHA</b></td><td>18</td><td>+4</td><td>+7</td></tr>
+			</table>
+			<ul class="unstyled mb">
+				<li><b>Resistances</b> Necrotic, Radiant</li>
+				<li><b>Immunities</b> Charmed, Exhaustion, Frightened</li>
+				<li><b>Senses</b> Blindsight 10 ft., Darkvision 90 ft., Truesight 90 ft., Passive Perception 17</li>
+				<li><b>Languages</b> Understands all but can't speak it, telepathy 90 ft.</li>
+				<li><b>CR</b> 23 (XP 50,000; PB +7)</li>
+			</ul>
+			<h4 style="margin-top:5px">Traits</h4>
+				<p><b><i>Astral Implosion.</i></b> The rot doesn't provoke an opportunity attack when it flies out of an enemy's reach.</p>
+				<p><b><i>Magic Resistance.</i></b> The rot has Advantage on saving throws against spells and other magical effects.</p>
+			<h4 style="margin-top:5px">Actions</h4>
+				<p><b><i>Multiattack.</i></b> The rot makes one Decaying Longsword attack and uses Battlefield Inspiration.</p>
+				<p><i><b>Pseudopod.</b> Melee Weapon Attack:</i> +6 to hit, reach 5 ft. <i>Hit:</i> 18 (4d8) Necrotic damage, plus 18 (4d8) Radiant damage, or of the target is a corpse or undead, the necrotic damage increases to 36 (8d8).</p>
+				<p class="indent"> Additionally, for the next 24 hours, the target is marked for death. A creature who drops to 0 hit points while marked for death immediately fails one death saving throw. This effect isn't cumulative. .</p>
+				<p><b><i>Battlefield Inspiration.</i></b> The rot chooses up to three creatures it can see within 30 feet of it. Until the end of the angel's next turn, each target can add a d4 to its attack rolls and saving throws.</p>
+			<h4 style="margin-top:5px">Bonus Actions</h4>
+				<p><b><i>Hypnotic Beam.</i></b> One of the angel's eyes shoots a magic ray at a creature the angel can see within 60 feet of them. The target must succeed on a DC 15 Wisdom saving throw or use their reaction, if available, to move as far as their speed allows toward the angel, aboiding obviously dangerous ground.</p>
+			<h4 style="margin-top:5px">Reactions</h4>
+				<p><b><i>Radiant Puff</i></b> When the angel is hit with an attack, they release a cloud of spores. Each creatuer within 10 feet of the angel must succeed on a DC 15 Constitution saving throe or be blinded until the end of the rot angel's next turn.</p>
+		</description>
+	</element>
+
+	<element name="Battleforce Angel" type="Information" source="Entemar" id="ID_HIN_INFORMATION_BATTLEFORCE_ANGEL_STATBLOCK">
+		<description>
+			<h4 style="margin-top:0px" />
+			<p style="margin-bottom:5px"><i>Medium Celestial, Lawful Good</i></p>
+			<ul class="unstyled mb">
+				<li style="margin-bottom:-1em"><b>AC</b> 18 (Plate Armor)</li>
+				<li><b>HP</b> 66 (12d8 + 12)</li>
+				<li><b>Speed</b> 30 ft., Fly 90 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:2px;margin-bottom:10px">
+				<tr style="font-size:8px"><td colspan="2" /><td>MOD</td><td>SAVE</td><td colspan="2" /><td>MOD</td><td>SAVE</td><td colspan="2" /><td>MOD</td><td>SAVE</td></tr>
+				<tr><td><b>STR</b></td><td>16</td><td>+3</td><td>+3</td><td><b>DEX</b></td><td>12</td><td>+1</td><td>+1</td><td><b>CON</b></td><td>13</td><td>+1</td><td>+1</td></tr>
+				<tr><td><b>INT</b></td><td>11</td><td>+0</td><td>+0</td><td><b>WIS</b></td><td>17</td><td>+3</td><td>+6</td><td><b>CHA</b></td><td>18</td><td>+4</td><td>+7</td></tr>
+			</table>
+			<ul class="unstyled mb">
+				<li><b>Resistances</b> Fire, Radiant</li>
+				<li><b>Immunities</b> Charmed, Exhaustion, Frightened</li>
+				<li><b>Senses</b> Darkvision 120 ft., Truesight 120 ft., Passive Perception 16</li>
+				<li><b>Languages</b> All</li>
+				<li><b>CR</b> 5</li>
+			</ul>
+			<h4 style="margin-top:5px">Traits</h4>
+				<p><b><i>Flyby.</i></b>  The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach.</p>
+				<p><b><i>Magic Resistance.</i></b> The angel has Advantage on saving throws against spells and other magical effects.</p>
+			<h4 style="margin-top:5px">Actions</h4>
+				<p><b><i>Multiattack.</i></b> The angel makes two melee attacks. It also uses Battlefield Inspiration.</p>
+				<p><i><b>Longsword.</b> Melee Weapon Attack:</i> +6 to hit, reach 5 ft. <i>Hit:</i> 7 (1d8 + 3) Slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands, plus 18 (4d8) Radiant damage. If the target is within 5 feet of any of the angel's allies, the target takes an extra 2 (1d4) Radiant damage.</p>
+				<p><b><i>Battlefield Inspiration.</i></b> The angel chooses up to three creatures it can see within 30 feet of it. Until the end of the angel's next turn, each target can add a d4 to its attack rolls and saving throws.</p>
+		</description>
+	</element>
+
+	<element name="Rot Angel" type="Information" source="Entemar" id="ID_HIN_INFORMATION_ROT_ANGEL_STATBLOCK">
+		<description>
+			<h4 style="margin-top:0px" />
+			<p style="margin-bottom:5px"><i>Medium Celestial (Skirmisher), typically Lawful Neutral</i></p>
+			<ul class="unstyled mb">
+				<li style="margin-bottom:-1em"><b>AC</b> 16 (Natural Armor)</li>
+				<li><b>HP</b> 97 (13d8 + 39)</li>
+				<li><b>Speed</b> 0 ft., Fly 50 ft. (Hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:2px;margin-bottom:10px">
+				<tr style="font-size:8px"><td colspan="2" /><td>MOD</td><td>SAVE</td><td colspan="2" /><td>MOD</td><td>SAVE</td><td colspan="2" /><td>MOD</td><td>SAVE</td></tr>
+				<tr><td><b>STR</b></td><td>6</td><td>-2</td><td>-2</td><td><b>DEX</b></td><td>16</td><td>+3</td><td>+3</td><td><b>CON</b></td><td>17</td><td>+3</td><td>+6</td></tr>
+				<tr><td><b>INT</b></td><td>8</td><td>-1</td><td>-1</td><td><b>WIS</b></td><td>14</td><td>+2</td><td>+2</td><td><b>CHA</b></td><td>19</td><td>+4</td><td>+7</td></tr>
+			</table>
+			<ul class="unstyled mb">
+				<li><b>Resistances</b> Necrotic, Radiant</li>
+				<li><b>Immunities</b> Charmed, Flanked, Frightened</li>
+				<li><b>Senses</b> Blindsight 10 ft., Darkvision 60ft., Passive Perception 18</li>
+				<li><b>Languages</b> Understands Celestial but can't speak it, telepathy 120 ft.</li>
+				<li><b>CR</b> 5</li>
+			</ul>
+			<h4 style="margin-top:5px">Traits</h4>
+				<p><b><i>Astral Implosion.</i></b> The angel doesn't provoke opportunity attacks when they fly out of an enemy's reach.
+			<h4 style="margin-top:5px">Actions</h4>
+				<p><i><b>Decaying Touch.</b> Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target <i>Hit:</i> 22 (5d8) Necrotic damage, or if the target is a corpse or Undead, the damage increases to 36 (8d8).</p>
+				<p class="indent"> Additionally, for the next 24 hours, the target is marked for death. A creature who drops to 0 hit points while marked for death immediately fails one death saving throw. This effect isn't cumulative.</p>
+			<h4 style="margin-top:5px">Bonus Actions</h4>
+				<p><b><i>Hypnotic Beam.</i></b> One of the angel's eyes shoots a magic ray at a creature the angel can see within 60 feet of them. The target must succeed on a DC 15 Wisdom saving throw or use their reaction, if available, to move as far as their speed allows toward the angel, aboiding obviously dangerous ground.</p>
+			<h4 style="margin-top:5px">Reactions</h4>
+				<p><b><i>Radiant Puff.</i></b> When the angel is hit with an attack, they release a cloud of spores. Each creatuer within 10 feet of the angel must succeed on a DC 15 Constitution saving throe or be blinded until the end of the rot angel's next turn.</p>
+		</description>
 	</element>
 </elements>
