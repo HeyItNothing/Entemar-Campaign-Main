@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.7">
+        <update version="0.0.8">
             <file name="Agathomancy-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Agathomancy-Spells.xml" />
         </update>
     </info>
@@ -255,14 +255,14 @@
 				<li><b>Immunities</b> Charmed, Exhaustion, Frightened</li>
 				<li><b>Senses</b> Blindsight 10 ft., Darkvision 90 ft., Truesight 90 ft., Passive Perception 17</li>
 				<li><b>Languages</b> Understands all but can't speak it, telepathy 90 ft.</li>
-				<li><b>CR</b> 23 (XP 50,000; PB +7)</li>
+				<li><b>CR</b> 5</li>
 			</ul>
 			<h4 style="margin-top:5px">Traits</h4>
 				<p><b><i>Astral Implosion.</i></b> The rot doesn't provoke an opportunity attack when it flies out of an enemy's reach.</p>
 				<p><b><i>Magic Resistance.</i></b> The rot has Advantage on saving throws against spells and other magical effects.</p>
 			<h4 style="margin-top:5px">Actions</h4>
 				<p><b><i>Multiattack.</i></b> The rot makes one Decaying Longsword attack and uses Battlefield Inspiration.</p>
-				<p><i><b>Pseudopod.</b> Melee Weapon Attack:</i> +6 to hit, reach 5 ft. <i>Hit:</i> 18 (4d8) Necrotic damage, plus 18 (4d8) Radiant damage, or of the target is a corpse or undead, the necrotic damage increases to 36 (8d8).</p>
+				<p><i><b>Decaying Longsword.</b> Melee Weapon Attack:</i> +6 to hit, reach 5 ft. <i>Hit:</i> 18 (4d8) Necrotic damage, plus 18 (4d8) Radiant damage, or of the target is a corpse or undead, the necrotic damage increases to 36 (8d8).</p>
 				<p class="indent"> Additionally, for the next 24 hours, the target is marked for death. A creature who drops to 0 hit points while marked for death immediately fails one death saving throw. This effect isn't cumulative. .</p>
 				<p><b><i>Battlefield Inspiration.</i></b> The rot chooses up to three creatures it can see within 30 feet of it. Until the end of the angel's next turn, each target can add a d4 to its attack rolls and saving throws.</p>
 			<h4 style="margin-top:5px">Bonus Actions</h4>
