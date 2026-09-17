@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <file name="Agathomancy-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Agathomancy-Spells.xml" />
         </update>
     </info>
@@ -325,7 +325,7 @@
 				<li><b>CR</b> 5</li>
 			</ul>
 			<h4 style="margin-top:5px">Traits</h4>
-				<p><b><i>Astral Implosion.</i></b> The angel doesn't provoke opportunity attacks when they fly out of an enemy's reach.</p>
+				<p><b><i>Flyby.</i></b> The angel doesn't provoke opportunity attacks when they fly out of an enemy's reach.</p>
 			<h4 style="margin-top:5px">Actions</h4>
 				<p><i><b>Decaying Touch.</b> Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target <i>Hit:</i> 22 (5d8) Necrotic damage, or if the target is a corpse or Undead, the damage increases to 36 (8d8).</p>
 				<p class="indent"> Additionally, for the next 24 hours, the target is marked for death. A creature who drops to 0 hit points while marked for death immediately fails one death saving throw. This effect isn't cumulative.</p>
