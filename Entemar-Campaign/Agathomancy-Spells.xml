@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.6">
+        <update version="0.0.7">
             <file name="Agathomancy-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Agathomancy-Spells.xml" />
         </update>
     </info>
@@ -181,7 +181,7 @@
 		</setters>
 	</element>
 
-    <element name="Agathoic Blade" type="Spell" source="Entemar" id="ID_HIN_SPELL_AGATHOIC_BLADE2">
+    <element name="Agathoic Surge" type="Spell" source="Entemar" id="ID_HIN_SPELL_AGATHOIC_SURGE">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>You touch a willing creature, filling it with both holy and unholy prowess to harness for the spells duration. When you touch the creature, choose:</p>
