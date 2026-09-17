@@ -71,7 +71,7 @@
 			<set name="school">Agathomancy</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
-			<set name="range"120 feet</set>
+			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -121,7 +121,7 @@
 			<set name="school">Agathomancy</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
-			<set name="range">120</set>
+			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -221,7 +221,7 @@
 			<set name="school">Agathomancy</set>
 			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">90 Feet</set>
+			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
