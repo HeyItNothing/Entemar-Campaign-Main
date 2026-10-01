@@ -3,7 +3,7 @@
 	<info>
 		<name></name>
         <update version="0.0.1">
-            <file name="Entemars-Glossar-of-Weapons.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemars-Glossar-of-Weapons.xml" />
+            <file name="Entemars-Glossar-of-Weapons.xml" url="" />
         </update>
     </info>
     <element name="Weapon Proficiency (Scythe)" type="Proficiency" source="Entemar" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
