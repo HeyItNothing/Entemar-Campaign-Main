@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.8">
+        <update version="0.0.9">
             <file name="Agathomancy-Spells.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Agathomancy-Spells.xml" />
         </update>
     </info>
@@ -84,7 +84,7 @@
     <element name="Guns War" type="Spell" source="Entemar" id="ID_HIN_SPELL_GUNS_WAR">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
-			<p>You make a gesture with your hand, mimicking a gun. For the duration, you can use your action, then choose:</p>
+			<p>You make a gesture with your hand, mimicking a gun. For the duration, you can use your attack action to make a ranged weapon attack. When you attack, choose:</p>
             <p class="indent"><strong><em>Agatho</em></strong> You fire off a Salve of three magic bullets against a creature within 30 feet. Make a ranged spell attack, dealing 1d4 of your choice between Necrotic or Radiant for each bullet on a hit.</p>
             <p class="indent"><strong><em>Agios</em></strong> You fire off a single bullet against a creature within 240/300 feet. Make a ranged spell attack, dealing 1d8 of your choice between Fire or Radiant damage on a hit.</p>
             <p class="indent"><strong><em>Kakos</em></strong> You fire off a scattering shot. Each creature of your choice within a 15 feet Cone must make a Constitution Saving Throw, receiving 2d4 of your choice between Cold or Necrotic damage on a failure, or half as much on a success.</p>
@@ -137,7 +137,7 @@
 			<p>You dash up to 30 feet through a straight line onto an unoccupied space that you can see. Before you dash forth, choose:</p>
             <p class="indent"><strong><em>Agatho</em></strong> You dash forth with mighty grace. Choose one aspect of Agios and one Aspect of Kakos to use on the allies and other creatures you pass through. The die for healing allies or damaging other creatures are halved.</p>
             <p class="indent"><strong><em>Agios</em></strong> You dash forth with heavenly grace. If you pass through an allied creature, you heal them for 2d4 + your spellcasting modifier. If you pass through any other creature, they make a Charisma Saving Throw, getting the charmed condition on a failed save until the start of your next turn.</p>
-            <p class="indent"><strong><em>Kakos</em></strong> You dash forth with demonic might. If you pass through an allied creature, they can use their reaction to make one melee attack against a creature within their reach. If you pass through any other creature they take 2d4 + your spellcasting modifier Necrotic damage.</p>
+            <p class="indent"><strong><em>Kakos</em></strong> You dash forth with demonic might. If you pass through an allied creature, they can use their reaction to make one melee attack against a creature within their reach. If you pass through any other creature you can make a melee spell attack. On a hit, the creatures take 2d4 + your spellcasting modifier Necrotic damage.</p>
             <p class="indent"><strong><em>At Higher Levels</em></strong> The spells damage increases by 2d4 for each spell slot level above the 2nd.</p>
 		</description>
 		<setters>
@@ -195,8 +195,8 @@
 			<set name="level">0</set>
 			<set name="school">Agathomancy</set>
 			<set name="time">1 action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Self</set>
+			<set name="duration">1 Minute</set>
+			<set name="range">Touch (5 ft.)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
