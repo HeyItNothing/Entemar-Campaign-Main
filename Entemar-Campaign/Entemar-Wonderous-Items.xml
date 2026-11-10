@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.6">
+        <update version="0.0.7">
             <file name="Entemar-Wonderous-Items.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemar-Wonderous-Items.xml" />
         </update>
     </info>
@@ -309,7 +309,7 @@
         </sheet>
     </element>
 	
-	<element name="Coven Ink Arm" type="Magic Item" source="Entemar Campaign" id="ID_HIN_EC_MAGIC_ITEM_COVEN_INK_ARM">
+	<element name="Coven Ink Arm" type="Magic Item" source="Entemar" id="ID_HIN_EH_MAGIC_ITEM_COVEN_INK_ARM">
 		<description>
 			<p>Ink forms itself into a replacement of your arm, becoming almost an identical replacement. While the arm is now made out of Ink, you can still feel with it as if it was a normal limb.</p>
             <p class="indent"><strong><em>Master of Ink.</em></strong> The Ink grows alongside you. You can turn your arm into any kind of weapon that you have mastery in. During combat, you can change your weapon 2 times per round, regaining the ability to change its form again at the start of your turn. A Ink weapons has the same stats as a simple verion of the original weapon.</p>
