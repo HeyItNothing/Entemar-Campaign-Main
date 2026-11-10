@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <file name="Entemar-Wonderous-Items.xml" url="https://raw.githubusercontent.com/HeyItNothing/Entemar-Campaign-Main/refs/heads/main/Entemar-Campaign/Entemar-Wonderous-Items.xml" />
         </update>
     </info>
@@ -308,4 +308,19 @@
             </description>
         </sheet>
     </element>
+	
+	<element name="Coven Ink Arm" type="Magic Item" source="Entemar Campaign" id="ID_HIN_EC_MAGIC_ITEM_COVEN_INK_ARM">
+		<description>
+			<p>Ink forms itself into a replacement of your arm, becoming almost an identical replacement. While the arm is now made out of Ink, you can still feel with it as if it was a normal limb.</p>
+            <p class="indent"><strong><em>Master of Ink.</em></strong> The Ink grows alongside you. You can turn your arm into any kind of weapon that you have mastery in. During combat, you can change your weapon 2 times per round, regaining the ability to change its form again at the start of your turn. A Ink weapons has the same stats as a simple verion of the original weapon.</p>
+            <p class="indent"><strong><em>Ancient Coven Curse.</em></strong> The Ink is cursed. Brought upon by a witch of the Ink Coven, it is put upon you after a long ritual. The curse cannot be stopped by the "remove curse" spell or any kind of ability to thwart curses. The only way to stop the curse is by the Witch who cast it, either by choice or death. When you get this curse, you choose one Tattoo Wonderous Item that requires attunement and attune to it. This happen again 2/4/6 years after gaining this curse. You can only get rid of the tattoos by getting rid of the curse and cannot use other items in the used attunement slots. When you get the last tattoo at the 6th year, it is attuned to you regardless of your attunement slots being full or not. Lastly, one yeasr after gaining the last Tattoo, you die due to the strain the Ink puts upon your body.</p> 
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
 </elements>
